@@ -3,7 +3,7 @@ permalink: /about/
 title: "About Me"
 excerpt: "About Me"
 search: true
-last_modified_at: 2022-01-05T13:00:00+09:00
+last_modified_at: 2023-01-06T13:00:00+09:00
 toc: true
 toc_sticky: true
 toc_label: "About Me"
@@ -43,7 +43,7 @@ padding: 5px;
 </div>
 </details>
 <p></p>
-I have so many hobbies, so I can say my hobby is to try new things.
+Also, I have so many hobbies, so I can say my hobby is to try new things.
 <p></p>
 <details>
 <summary><b><a style="color: #900023; text-decoration: none;">Here's some of my unique hobbies:</a></b></summary>
@@ -70,11 +70,11 @@ Apr. 2021 - Dec. 2022
 
 - **Software Security** \\
 Developed a Web application <a href="https://github.com/Team-ILA/icebreaQ-server" style="color: #900023; text-decoration: none;">**icebreaQ**</a> as a backend Developer in Software Security class(COSE451) at Korea University.\\
-Here's the <a href="https://www.rwb0104.tk/" style="color: #900023; text-decoration: none;">**Demo Site**</a> and <a href="https://youtu.be/X4PaFwVboRs" style="color: #900023; text-decoration: none;">**Demo Video**</a>.
+Here's the <a href="https://www.rwb0104.tk/" style="color: #900023; text-decoration: none;">**Demo Site**</a> and <a href="https://youtu.be/X4PaFwVboRs" style="color: #900023; text-decoration: none;">**Demo Video**</a>.\\
 Aug. 2022 - Dec. 2022
 
-- **LG Aimers**
-Participated as a 2'nd trainee at <a href="https://www.lgaimers.ai/" style="color: #900023; text-decoration: none;">**LG Aimers**</a> and prepared to compete in LG AI Hackathon.
+- **LG Aimers** \\
+Participated as a 2'nd trainee at <a href="https://www.lgaimers.ai/" style="color: #900023; text-decoration: none;">**LG Aimers**</a> and prepared to compete in LG AI Hackathon.\\
 Jan. 2023 - current
 
 ## Further Career
@@ -82,11 +82,11 @@ Jan. 2023 - current
 Discharged upon completing military service as a conscripted policeman.\\
 Nov. 2019 - Jun. 2021
 
-- **Gifted Education Center**
-Participated as a tutor in <a href="https://ku-gifts.kr" style="color: #900023; text-decoration: none;">**Gifted Education Center**</a> teaching students under the theme of Metaverse, 3D printing, Drones, AI autonomous car, etc.
+- **Gifted Education Center** \\
+Participated as a tutor in <a href="https://ku-gifts.kr" style="color: #900023; text-decoration: none;">**Gifted Education Center**</a> teaching students under the theme of Metaverse, 3D printing, Drones, AI autonomous car, etc.\\
 Dec. 2022 - current
 
 ## Contact
- * Email : [chany63@korea.ac.kr](mailto:chany63@korea.ac.kr)
- * Github : [https://github.com/chany63](https://github.com/chany63)
- * Blog : [https://chany63.github.io/](https://chany63.github.io/)
+ * Email : <a href="mailto:chany63@korea.ac.kr" style="color: #900023; text-decoration: none;">**chany63@korea.ac.kr**</a>
+ * Github : <a href="https://github.com/chany63/" style="color: #900023; text-decoration: none;">**https://github.com/chany63/**</a>
+ * Blog : <a href="https://chany63.github.io/" style="color: #900023; text-decoration: none;">**https://chany63.github.io/**</a>
