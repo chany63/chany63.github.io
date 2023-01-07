@@ -213,4 +213,4 @@ $ git push -u origin master
 
 자 이제 잠시 후 username.github.io에 접속하면? jekyll 테마가 입혀진 초기 상태의 본인 블로그를 확인할 수 있다! Congrats!!
 
-![스크린샷 2023-01-04 오후 5.08.26.png](/assets/img/2023-01-08-githubblog/blog11.png)
+![스크린샷 2023-01-04 오후 5.08.26.png](/assets/img/2023-01-07-githubblog/blog11.png)
