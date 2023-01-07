@@ -68,6 +68,7 @@ Mar. 2018 - current
 - **Computer Programming**\\
 Developed a Windows application <a href="https://github.com/chany63/ChanyProject" style="color: #900023; text-decoration: none;">**Delivery Service**</a> using Java spring in Computer Programming class() at Korea University.\\
 Here's the <a href="https://youtu.be/UxVXHnrtQHQ" style="color: #900023; text-decoration: none;">**Demo Video**</a> of using the app service.
+Sep. 2018 - Nov. 2018
 - **Hanium** \\
 Participated in <a href="https://www.hanium.or.kr/" style="color: #900023; text-decoration: none;">**Hanium**</a> project competition under the theme of making a Stock-Trading app.\\
 Apr. 2021 - Dec. 2022
@@ -88,7 +89,7 @@ Discharged upon completing military service as a conscripted policeman.\\
 Nov. 2019 - Jun. 2021
 
 - **Gifted Education Center** \\
-Participated as a tutor in <a href="https://ku-gifts.kr" style="color: #900023; text-decoration: none;">**Gifted Education Center**</a> teaching students under the theme of Metaverse, 3D printing, Drones, AI autonomous car, etc.\\
+Participated as a tutor in <a href="https://ku-gifts.kr" style="color: #900023; text-decoration: none;">**Gifted Education Center**</a> teaching students under the theme of Metaverse, 3D printing, Drones, AI autonomous car, VR, etc.\\
 Dec. 2022 - current
 
 ## Contact
