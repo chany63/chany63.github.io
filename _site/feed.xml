@@ -1,1 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-06T16:01:46+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hongchan Jeon</title><subtitle>App developer &amp; Korea univ. student major in Computer Science</subtitle><author><name>Hongchan Jeon</name></author><entry><title type="html">First post: test</title><link href="http://localhost:4000/blog/testpage/" rel="alternate" type="text/html" title="First post: test" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T14:00:00+09:00</updated><id>http://localhost:4000/blog/testpage</id><content type="html" xml:base="http://localhost:4000/blog/testpage/">&lt;p&gt;this is a test page&lt;/p&gt;</content><author><name>Hongchan Jeon</name></author><category term="Blog" /><category term="Blog" /><category term="GitHub Page" /><category term="Git" /><summary type="html">this is a test page</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-07T21:33:04+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hongchan Jeon</title><subtitle>App developer &amp; Korea univ. student major in Computer Science</subtitle><author><name>Hongchan Jeon</name></author><entry><title type="html">SQLAlchemy</title><link href="http://localhost:4000/backend%20study/sqlalchemy/" rel="alternate" type="text/html" title="SQLAlchemy" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T01:00:00+09:00</updated><id>http://localhost:4000/backend%20study/sqlalchemy</id><content type="html" xml:base="http://localhost:4000/backend%20study/sqlalchemy/">&lt;h2 id=&quot;sqlalchemy&quot;&gt;SQLAlchemy&lt;/h2&gt;
+
+&lt;p&gt;들어가기에 앞서, 본인은 postgresql을 사용할 것이기 때문에 postgresql를 먼저 설치해줘야 한다&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;postgresql&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Python에서 postgresql을 사용하기 위해서는 psycopg2 라이브러리를 사용해야 한다.&lt;/p&gt;
+
+&lt;p&gt;psycopg2의 경우 유니코드와 python3를 모두 지원하므로 가장 널리 쓰이는 라이브러리 중 하나.&lt;/p&gt;
+
+&lt;p&gt;JDBC와 같은 Database 커넥터이기 때문에 다음과 같은 기능을 지원한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Database 연결과 해제&lt;/li&gt;
+  &lt;li&gt;SQL 실행과 트랜잭션 발생&lt;/li&gt;
+  &lt;li&gt;결과 반환&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;postgresql을 Python 환경에서 사용하는 준비는 모두 끝났다!&lt;/p&gt;
+
+&lt;h3 id=&quot;1-sqlalchemy설치&quot;&gt;1. SQLalchemy설치&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqlalchemy&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2-드라이버engine-및-세션session-로드&quot;&gt;2. 드라이버(Engine) 및 세션(session) 로드&lt;/h3&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sqlalchemy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;engine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;postgresql://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:5432/&amp;lt;dbname&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Hongchan Jeon</name></author><category term="Backend study" /><category term="Backend" /><category term="DB" /><category term="SQL" /><category term="Python" /><summary type="html">SQLAlchemy</summary></entry><entry><title type="html">Simple linux commands</title><link href="http://localhost:4000/linux/linuxcmd/" rel="alternate" type="text/html" title="Simple linux commands" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T17:00:00+09:00</updated><id>http://localhost:4000/linux/linuxcmd</id><content type="html" xml:base="http://localhost:4000/linux/linuxcmd/">&lt;h2 id=&quot;리눅스-명령어&quot;&gt;리눅스 명령어&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;명령어&lt;/th&gt;
+      &lt;th&gt;의미&lt;/th&gt;
+      &lt;th&gt;비고&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mv&lt;/td&gt;
+      &lt;td&gt;파일 이동&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo&lt;/td&gt;
+      &lt;td&gt;출력&lt;/td&gt;
+      &lt;td&gt;echo (내용) &amp;gt; 파일: 파일에 덮어씌우기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cat&lt;/td&gt;
+      &lt;td&gt;파일 미리보기&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ls -a&lt;/td&gt;
+      &lt;td&gt;숨김 파일 표시&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;python -m (모듈)&lt;/td&gt;
+      &lt;td&gt;파이썬 라이브러리를 모듈로써 설치할 때&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2023-01-07-linuxcmd/linuxcmd1.png&quot; alt=&quot;echo / cat / 연습&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;echo / cat / 연습&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2023-01-07-linuxcmd/linuxcmd2.png&quot; alt=&quot;mkdir / mv / 상대경로 연습&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;mkdir / mv / 상대경로 연습&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2023-01-07-linuxcmd/linuxcmd3.png&quot; alt=&quot;python 명령어 중 -m mod에 대한 설명임 (예: python3 -m venv .venv 이름이  .venv인 가상환경 모듈 설치)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;python 명령어 중 -m mod에 대한 설명임 (예: python3 -m venv .venv 이름이  .venv인 가상환경 모듈 설치)&lt;/p&gt;
+
+&lt;p&gt;경로: 상대경로, 절대경로&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;상대경로&lt;/li&gt;
+  &lt;li&gt;현재 폴더: ./&lt;/li&gt;
+  &lt;li&gt;상위 폴더: ../&lt;/li&gt;
+  &lt;li&gt;상위 폴더의 상위 폴더: ../../&lt;/li&gt;
+  &lt;li&gt;최상위 폴더: /&lt;/li&gt;
+  &lt;li&gt;default: ~&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Hongchan Jeon</name></author><category term="Linux" /><category term="Linux" /><summary type="html">리눅스 명령어</summary></entry><entry><title type="html">REST API</title><link href="http://localhost:4000/backend%20study/restapi/" rel="alternate" type="text/html" title="REST API" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T17:00:00+09:00</updated><id>http://localhost:4000/backend%20study/restapi</id><content type="html" xml:base="http://localhost:4000/backend%20study/restapi/">&lt;h2 id=&quot;rest란&quot;&gt;REST란?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;자원을 이름으로 구분하여 해당 자원의 상태를 주고받는 것&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;상태전달-형식&quot;&gt;상태전달 형식&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;데이터가 요청되는 시점에서 정보 전달&lt;/li&gt;
+  &lt;li&gt;JSON 혹은 XML을 통해 데이터를 주고받음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;= 즉 REST는 네트워크 상에서 서버와 클라이언트 사이의 통신 방식 중 하나&lt;/p&gt;
+
+&lt;p&gt;해당 포스트는 &lt;a href=&quot;https://meetup.nhncloud.com/posts/92&quot;&gt;REST API 제대로 알고 사용하기 : NHN Cloud Meetup&lt;/a&gt;를 참조하여 만들었습니다.&lt;/p&gt;</content><author><name>Hongchan Jeon</name></author><category term="Backend study" /><category term="Backend" /><category term="DB" /><summary type="html">REST란?</summary></entry><entry><title type="html">First post: test</title><link href="http://localhost:4000/blog/testpage/" rel="alternate" type="text/html" title="First post: test" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T16:00:00+09:00</updated><id>http://localhost:4000/blog/testpage</id><content type="html" xml:base="http://localhost:4000/blog/testpage/">&lt;p&gt;this is a test page&lt;/p&gt;</content><author><name>Hongchan Jeon</name></author><category term="Blog" /><category term="Blog" /><category term="GitHub Page" /><category term="Git" /><summary type="html">this is a test page</summary></entry></feed>
