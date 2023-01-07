@@ -107,4 +107,8 @@
 <url>
 <loc>http://localhost:4000/page2/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/icebreaQ.pdf</loc>
+<lastmod>2023-01-07T23:15:23+09:00</lastmod>
+</url>
 </urlset>
