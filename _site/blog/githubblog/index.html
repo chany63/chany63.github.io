@@ -1,0 +1,858 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Github Blog - Hongchan Jeon</title>
+<meta name="description" content="첫 인턴을 준비하던 주중, 포트폴리오와 이력서 제출을 해야하는데 아직 만들어 놓은 것이 없어 여러 양식을 참고하다가 github.io를 이용해 나만의 블로그를 만들기로 하였다.">
+
+
+  <meta name="author" content="Hongchan Jeon">
+  
+  <meta property="article:author" content="Hongchan Jeon">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Hongchan Jeon">
+<meta property="og:title" content="Github Blog">
+<meta property="og:url" content="http://localhost:4000/blog/githubblog/">
+
+
+  <meta property="og:description" content="첫 인턴을 준비하던 주중, 포트폴리오와 이력서 제출을 해야하는데 아직 만들어 놓은 것이 없어 여러 양식을 참고하다가 github.io를 이용해 나만의 블로그를 만들기로 하였다.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-01-07T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2023-01-07T19:00:00+09:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/blog/githubblog/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Hongchan Jeon",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Hongchan Jeon Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Hongchan Jeon
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About me</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Category</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/about/">
+        <img src="/chany.jpg" alt="Hongchan Jeon" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/about/" itemprop="url">Hongchan Jeon</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>App developer &amp; Korea univ. student major in Computer Science</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Seoul, South Korea</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:chany63@korea.ac.kr" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://twitter.com/j_ava_chip" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/chany63" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.instagram.com/cmdxjchan/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Github Blog">
+    <meta itemprop="description" content="첫 인턴을 준비하던 주중, 포트폴리오와 이력서 제출을 해야하는데 아직 만들어 놓은 것이 없어 여러 양식을 참고하다가 github.io를 이용해 나만의 블로그를 만들기로 하였다.">
+    <meta itemprop="datePublished" content="2023-01-07T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2023-01-07T19:00:00+09:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/blog/githubblog/" class="u-url" itemprop="url">Github Blog
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#homebrew-설치">Homebrew 설치</a></li><li><a href="#jekyll이란">Jekyll이란?</a></li><li><a href="#ruby-설치">Ruby 설치</a></li><li><a href="#bundler-설치">Bundler 설치</a></li><li><a href="#rbenv-환경변수-설정">rbenv 환경변수 설정</a></li><li><a href="#jekyll-설치-블로그-생성">Jekyll 설치, 블로그 생성</a></li><li><a href="#visual-studio-code에-jekyll-개발환경-연동">Visual Studio Code에 jekyll 개발환경 연동</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>첫 인턴을 준비하던 주중, 포트폴리오와 이력서 제출을 해야하는데 아직 만들어 놓은 것이 없어 여러 양식을 참고하다가 <a href="http://github.io">github.io</a>를 이용해 나만의 블로그를 만들기로 하였다.</p>
+
+<p>여러 블로그를 찾아보며 블로그 만드는 데에 참고하였지만, apple silicon을 사용하는 블로거는 찾기 힘들어 직접 만들어 보기로 하였다.</p>
+
+<p>github 블로그를 꾸미는데 가장 사람들이 많이 쓰는 jekyll 이라는 웹사이트 툴을 활용할 계획이다.</p>
+
+<h2 id="homebrew-설치">Homebrew 설치</h2>
+
+<ul>
+  <li>homebrew는 오픈소스 라이브러리를 제대로 활용하기에 아주 편리한 소스인데 jekyll을 활용하기 위해서는 거의 필수라고 볼 수 있기 때문에 먼저 설치해줘야 한다.</li>
+  <li>그렇다면 homebrew를 어떻게 m1 맥북에 설치하냐..?
+    <ul>
+      <li>그냥 homebrew 홈페이지에서 하라는대로 하면 아주 간단하다 ㅋㅋ..</li>
+      <li>
+        <p>homebrew 홈페이지: <a href="https://brew.sh/">https://brew.sh</a></p>
+
+        <p><img src="/assets/img/2023-01-07-githubblog/blog1.png" alt="스크린샷 2023-01-03 오후 1.22.05.png" /></p>
+
+        <p>install homebrew 밑에 나와있는 저 문구(오른쪽 클립보드 아이콘을 클릭하면 저절로 복사된다)를 복사하여 사용하는 터미널에 복붙하면 완료.</p>
+
+        <p>설치 과정은 터미널에서 쭉 진행되며 next step을 위해서는 뭘 하라고 친절하게 설명이 나온다.</p>
+
+        <p>그대로 따라하여 설치가 완료되면 다음 문구를 통해 잘 됐는지 확인해준다</p>
+
+        <div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nf">$</span> <span class="nv">brew</span> <span class="o">--</span><span class="nv">version</span>
+</code></pre></div>        </div>
+
+        <p><img src="/assets/img/2023-01-07-githubblog/blog2.png" alt="스크린샷 2023-01-03 오후 1.26.47.png" /></p>
+
+        <p>위와 같은 결과가 출력되면 homebrew 설치에 성공한 것이다!</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="jekyll이란">Jekyll이란?</h2>
+
+<p>Jekyll은 정적 웹사이트 생성기로 Ruby 언어로 제작되었으며, 손쉽게 글을 쓸 수 있는 마크다운 글쓰기를 지원한다.(필자가 이 글을 쓰며 활용하고 있는 notion 또한 마크다운 글쓰기를 지원하는 대표적인 플랫폼이다)</p>
+
+<p>GitHub Pages는 Jekyll로 구동되기 때문에 내가 원하는 사이트를 GitHub을 통해 무려 공짜로 만들 수 있다.</p>
+
+<p>원하는 대로 커스터마이징이 가능하고 다양한 테마를 쓸 수 있다는 엄청난 장점이 있다.</p>
+
+<h2 id="ruby-설치">Ruby 설치</h2>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">rbenv</code>란?</p>
+
+    <p><a href="https://github.com/rbenv/rbenv#readme">rbenv</a>는 여러 종류의 Ruby를 설치할 수 있게 한다. rbenv 자체는 Ruby 설치를 지원하지 않습니다만, <a href="https://www.ruby-lang.org/ko/documentation/installation/#ruby-build">ruby-build</a>라는 유명한 플러그인에서 Ruby를 설치할 수 있다. rbenv, ruby-build 모두 macOS, Linux나 다른 UNIX-계열 운영체제에서 사용가능하다.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">ruby-build</code>란?</p>
+
+    <p><a href="https://github.com/rbenv/ruby-build#readme">ruby-build</a>는 다른 버전의 Ruby를 임의의 디렉터리에 컴파일하고 설치할 수 있게 하는 <a href="https://www.ruby-lang.org/ko/documentation/installation/#rbenv">rbenv</a>의 플러그인이다. ruby-build는 rbenv 없이 독자적으로 사용 할 수도 있다. macOS, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합하다.</p>
+  </li>
+  <li>macOS에서는 <code class="language-plaintext highlighter-rouge">rbenv</code>를 통해 Ruby를 설치한다. <code class="language-plaintext highlighter-rouge">rbenv</code>는 여러개의 Ruby 버전을 독립적으로 관리할 수 있도록 하는 패키지이다. 그리고 <code class="language-plaintext highlighter-rouge">ruby-build</code> 플러그인도 설치한다.</li>
+  <li>아까 설치한 homebrew를 활용해 rbenv와 ruby-build를 설치한다</li>
+</ul>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span> <span class="nv">brew</span> <span class="nv">install</span> <span class="nv">rbenv</span> <span class="nv">ruby</span><span class="o">-</span><span class="nv">build</span>
+</code></pre></div></div>
+
+<ul>
+  <li>설치 가능한 ruby version을 확인한다</li>
+</ul>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span> <span class="nv">rbenv</span> <span class="nv">install</span> <span class="o">-</span><span class="nv">l</span>
+</code></pre></div></div>
+
+<p><img src="/assets/img/2023-01-07-githubblog/blog3.png" alt="스크린샷 2023-01-03 오후 1.44.38.png" /></p>
+
+<p>안정성을 위해 필자는 가장 최신 버전이 아닌 3.0.5 버전을 설치하였다</p>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span> <span class="nv">rbenv</span> <span class="nv">install</span> <span class="mf">3.0</span><span class="nv">.5</span>
+</code></pre></div></div>
+
+<p><img src="/assets/img/2023-01-07-githubblog/blog4.png" alt="스크린샷 2023-01-03 오후 1.48.08.png" /></p>
+
+<p>설치가 완료되면 가장 마지막 줄에 위와 같은 문구가 뜬다. 따라해준다.</p>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span> <span class="nv">rbenv</span> <span class="nv">global</span> <span class="mf">3.0</span><span class="nv">.5</span>
+<span class="nf">$</span> <span class="nv">rbenv</span> <span class="nv">versions</span> <span class="err">#세팅</span> <span class="err">확인</span>
+</code></pre></div></div>
+
+<p><img src="/assets/img/2023-01-07-githubblog/blog5.png" alt="3.0.5로 설정되어 있는 것을 확인" /></p>
+
+<p>3.0.5로 설정되어 있는 것을 확인</p>
+
+<h2 id="bundler-설치">Bundler 설치</h2>
+
+<ul>
+  <li>이제 ruby의 gem을 통해 Bundler를 설치하려고 하면, 에러가 뜬다..</li>
+</ul>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span> <span class="nv">gem</span> <span class="nv">install</span> <span class="nv">bundler</span>
+<span class="nl">ERROR:</span>  <span class="nf">While</span> <span class="nv">executing</span> <span class="nv">gem</span> <span class="nv">...</span> <span class="p">(</span><span class="nv">Gem</span><span class="p">::</span><span class="nv">FilePermissionError</span><span class="p">)</span>
+    <span class="nf">You</span> <span class="nv">don</span><span class="err">'</span><span class="nv">t</span> <span class="nv">have</span> <span class="nv">write</span> <span class="nv">permissions</span> <span class="nv">for</span> <span class="nv">the</span> <span class="o">/</span><span class="nv">Library</span><span class="o">/</span><span class="nv">Ruby</span><span class="o">/</span><span class="nv">Gems</span><span class="o">/</span><span class="mf">2.6</span><span class="nv">.0</span> <span class="nb">di</span><span class="nv">rectory.</span>
+</code></pre></div></div>
+
+<p>위 rbenv의 환경변수 설정이 아직 안돼서이다</p>
+
+<h2 id="rbenv-환경변수-설정">rbenv 환경변수 설정</h2>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span> <span class="nv">echo</span> <span class="kc">$</span><span class="nv">SHELL</span>
+</code></pre></div></div>
+
+<p><img src="/assets/img/2023-01-07-githubblog/untitled.png" alt="기본 쉘이 zsh임을 확인" /></p>
+
+<p>기본 쉘이 zsh임을 확인</p>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span> <span class="nv">open</span> <span class="o">~/</span><span class="nv">.zshrc</span>
+</code></pre></div></div>
+
+<p>쭈욱 내려가서 아래 두줄을 그대로 넣어주면 된다.</p>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">export</span> <span class="nv">PATH</span><span class="err">={</span><span class="kc">$</span><span class="nv">Home</span><span class="err">}</span><span class="o">/</span><span class="nv">.rbenv</span><span class="o">/</span><span class="nv">bin</span><span class="p">:</span><span class="kc">$</span><span class="nv">PATH</span> <span class="o">&amp;&amp;</span> <span class="err">\</span>
+<span class="nf">eval</span> <span class="err">"</span><span class="kc">$</span><span class="p">(</span><span class="nv">rbenv</span> <span class="nv">init</span> <span class="o">-</span><span class="p">)</span><span class="err">"</span>
+</code></pre></div></div>
+
+<p>저장 후 종료</p>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span> <span class="nv">source</span> <span class="o">~/</span><span class="nv">.zshrc</span>
+</code></pre></div></div>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span> <span class="nv">gem</span> <span class="nv">install</span> <span class="nv">bundler</span>
+</code></pre></div></div>
+
+<h2 id="jekyll-설치-블로그-생성">Jekyll 설치, 블로그 생성</h2>
+
+<ul>
+  <li>이후 xcode의 command line tools가 정상적으로 설치가 되어있다면 gem을 통해 jekyll을 설치할 수 있다</li>
+</ul>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span> <span class="nv">gem</span> <span class="nv">install</span> <span class="nv">jekyll</span>
+</code></pre></div></div>
+
+<h2 id="visual-studio-code에-jekyll-개발환경-연동">Visual Studio Code에 jekyll 개발환경 연동</h2>
+
+<ul>
+  <li>미리 만들어 놓은 본인의 github page repo를 항상 하던대로 vsc에 연동하면 된다!</li>
+</ul>
+
+<p><img src="/assets/img/2023-01-07-githubblog/blog6.png" alt="스크린샷 2023-01-04 오후 4.36.09.png" /></p>
+
+<p>위쪽 그림과 같이 빠른 메뉴를 이용하거나, 아래쪽 그림과 같이 cmd + shift + p를 눌러 메뉴에서 git: clone을 치면</p>
+
+<p><img src="/assets/img/2023-01-07-githubblog/blog7.png" alt="스크린샷 2023-01-04 오후 4.37.23.png" /></p>
+
+<p><img src="/assets/img/2023-01-07-githubblog/blog8.png" alt="스크린샷 2023-01-04 오후 4.39.08.png" /></p>
+
+<p>위와 같은 창이 뜬다.</p>
+
+<p><img src="/assets/img/2023-01-07-githubblog/blog9.png" alt="스크린샷 2023-01-04 오후 4.40.43.png" /></p>
+
+<p>위 박스 안에 있는 걸 그대로 복붙해주면 원하는 로컬 디렉토리에 저 repo를 연동할 수 있다!</p>
+
+<p>로컬 디렉토리에 생성된 username.github.io로 cd(change directory)한 후</p>
+
+<p>해당 디렉토리에 jekyll을 생성해준다</p>
+
+<p><img src="/assets/img/2023-01-07-githubblog/blog10.png" alt="스크린샷 2023-01-04 오후 4.47.52.png" /></p>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span> <span class="nv">jekyll</span> <span class="nv">new</span> <span class="nv">.</span><span class="o">/</span>
+<span class="nf">$</span> <span class="nv">bundle</span> <span class="nv">install</span>
+</code></pre></div></div>
+
+<p>사이트가 생성됐으니 실행해보자!</p>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">$</span> <span class="nv">bundle</span> <span class="nv">exec</span> <span class="nv">jekyll</span> <span class="nv">serve</span>
+</code></pre></div></div>
+
+<p>자, 이제 평소에 로컬과 github를 연동하듯이 똑같이 하면 된다</p>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">#</span> <span class="nf">git</span> <span class="err">생성</span><span class="p">(</span><span class="err">이미</span> <span class="nv">git</span> <span class="nb">cl</span><span class="nv">one</span><span class="err">을</span> <span class="err">통해</span> <span class="nv">initialize</span> <span class="err">해주었기</span> <span class="err">때문에</span> <span class="err">해줄</span> <span class="err">필요없다</span><span class="p">)</span>
+<span class="nf">$</span> <span class="nv">git</span> <span class="nv">init</span>
+
+<span class="err">#</span> <span class="nf">git</span> <span class="err">상태</span> <span class="err">확인</span>
+<span class="nf">$</span> <span class="nv">git</span> <span class="nv">status</span>
+
+<span class="err">#</span> <span class="err">모든</span> <span class="nf">change</span><span class="err">를</span> <span class="nv">stage</span><span class="err">한다</span>
+<span class="nf">$</span> <span class="nv">git</span> <span class="nv">add</span> <span class="nv">.</span>
+
+<span class="err">#</span> <span class="err">잘</span> <span class="nf">staged</span> <span class="err">됐는지</span> <span class="nv">git</span> <span class="err">상태</span> <span class="err">확인</span>
+<span class="nf">$</span> <span class="nv">git</span> <span class="nv">status</span>
+
+<span class="err">#</span> <span class="err">커밋</span>
+<span class="nf">$</span> <span class="nv">git</span> <span class="nv">commit</span> <span class="o">-</span><span class="nv">m</span> <span class="err">'</span><span class="nv">Initial</span> <span class="nv">commit</span><span class="err">'</span>
+
+<span class="err">#</span> <span class="err">커밋</span> <span class="err">내역</span> <span class="err">확인</span>
+<span class="nf">$</span> <span class="nv">git</span> <span class="nv">log</span>
+
+<span class="err">#</span> <span class="nf">git</span> <span class="err">원격저장소로</span> <span class="nv">log</span> <span class="nv">remote</span><span class="p">(</span><span class="nv">vsc</span><span class="err">와</span> <span class="err">연동돼있다면</span> <span class="err">이미</span> <span class="err">돼있을것</span><span class="p">)</span>
+<span class="nf">$</span> <span class="nv">git</span> <span class="nv">remote</span> <span class="nv">add</span> <span class="nv">origin</span> <span class="nv">https</span><span class="p">:</span><span class="o">//</span><span class="nv">github.com</span><span class="o">/</span><span class="nv">username</span><span class="o">/</span><span class="nv">username.github.io.git</span>
+
+<span class="err">#</span> <span class="nf">remote</span> <span class="err">잘</span> <span class="err">됐는지</span> <span class="err">확인</span>
+<span class="nf">$</span> <span class="nv">git</span> <span class="nv">remote</span> <span class="o">-</span><span class="nv">v</span>
+
+<span class="err">#</span> <span class="err">로컬과</span> <span class="nf">github</span> <span class="err">동기화</span>
+<span class="nf">$</span> <span class="nv">git</span> <span class="nv">push</span> <span class="o">-</span><span class="nv">u</span> <span class="nv">origin</span> <span class="nv">master</span>
+</code></pre></div></div>
+
+<p>자 이제 잠시 후 username.github.io에 접속하면? jekyll 테마가 입혀진 초기 상태의 본인 블로그를 확인할 수 있다! Congrats!!</p>
+
+<p><img src="/assets/img/2023-01-08-githubblog/blog11.png" alt="스크린샷 2023-01-04 오후 5.08.26.png" /></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#blog" class="page__taxonomy-item p-category" rel="tag">Blog</a><span class="sep">, </span>
+    
+      <a href="/tags/#git" class="page__taxonomy-item p-category" rel="tag">Git</a><span class="sep">, </span>
+    
+      <a href="/tags/#github-page" class="page__taxonomy-item p-category" rel="tag">GitHub Page</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#blog" class="page__taxonomy-item p-category" rel="tag">Blog</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-01-07">January 7, 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Github+Blog%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fgithubblog%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fgithubblog%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fgithubblog%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/frontend%20study/DOM/" class="pagination--pager" title="What is DOM?
+">Previous</a>
+    
+    
+      <a href="/backend%20study/json/" class="pagination--pager" title="About JSON
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/backend%20study/sqlalchemy/" rel="permalink">SQLAlchemy
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">SQLAlchemy
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/frontend%20study/react/" rel="permalink">About React
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">참고 사이트: 웹사이트에 React추가하는 예제 보고 react 연습하기
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/backend%20study/pythonversion/" rel="permalink">Python Version Control
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">! 파이썬 프로젝트를 만들시에 파이썬 버전에 따라서 쓸 수 있는 명령어 코드가 다름
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/backend%20study/json/" rel="permalink">About JSON
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">JSON (JavaScript Object Notation)
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/j_ava_chip" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/chany63" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://www.instagram.com/cmdxjchan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Hongchan Jeon. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

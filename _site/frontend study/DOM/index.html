@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>First post: test - Hongchan Jeon</title>
-<meta name="description" content="this is a test page">
+<!-- begin _includes/seo.html --><title>What is DOM? - Hongchan Jeon</title>
+<meta name="description" content="DOM이란?">
 
 
   <meta name="author" content="Hongchan Jeon">
@@ -22,32 +22,32 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Hongchan Jeon">
-<meta property="og:title" content="First post: test">
-<meta property="og:url" content="http://localhost:4000/blog/testpage/">
+<meta property="og:title" content="What is DOM?">
+<meta property="og:url" content="http://localhost:4000/frontend%20study/DOM/">
 
 
-  <meta property="og:description" content="this is a test page">
-
-
-
+  <meta property="og:description" content="DOM이란?">
 
 
 
 
-  <meta property="article:published_time" content="2023-01-06T00:00:00+09:00">
 
 
 
-  <meta property="article:modified_time" content="2023-01-06T16:00:00+09:00">
+  <meta property="article:published_time" content="2023-01-07T00:00:00+09:00">
 
 
 
-  
+  <meta property="article:modified_time" content="2023-01-07T15:00:00+09:00">
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/blog/testpage/">
+
+<link rel="canonical" href="http://localhost:4000/frontend%20study/DOM/">
 
 
 
@@ -273,16 +273,16 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="First post: test">
-    <meta itemprop="description" content="this is a test page">
-    <meta itemprop="datePublished" content="2023-01-06T00:00:00+09:00">
-    <meta itemprop="dateModified" content="2023-01-06T16:00:00+09:00">
+    <meta itemprop="headline" content="What is DOM?">
+    <meta itemprop="description" content="DOM이란?">
+    <meta itemprop="datePublished" content="2023-01-07T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2023-01-07T15:00:00+09:00">
 
     <div class="page__inner-wrap">
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/blog/testpage/" class="u-url" itemprop="url">First post: test
+            <a href="http://localhost:4000/frontend%20study/DOM/" class="u-url" itemprop="url">What is DOM?
 </a>
           </h1>
           
@@ -314,12 +314,102 @@
           <aside class="sidebar__right ">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              
+              <ul class="toc__menu"><li><a href="#dom이란">DOM이란?</a></li><li><a href="#javascript로-문서객체를-생성한다">JavaScript로 문서객체를 생성한다?</a></li><li><a href="#dom-사용-예시">DOM 사용 예시</a></li></ul>
 
             </nav>
           </aside>
         
-        <p>this is a test page</p>
+        <h2 id="dom이란">DOM이란?</h2>
+
+<p>= Document Object Model(문서 객체 모델)</p>
+
+<ul>
+  <li>문서 객체란, &lt;html&gt;이나 &lt;body&gt; 같은 html문서의 태그들을 JavaScript가 이용할 수 있는 객체(object)로 만들면 그것을 문서 객체라고 함</li>
+  <li>즉, DOM은 웹 브라우저가 HTML 페이지를 인식하는 방식을 의미함.</li>
+</ul>
+
+<p><img src="/assets/img/2023-01-07-DOM/DOM1.png" alt="트리 구조로 형성되어 있는 DOM" /></p>
+
+<p>트리 구조로 형성되어 있는 DOM</p>
+
+<p>DOM은 tree형식의 자료구조를 가지고 있다.</p>
+
+<p><img src="/assets/img/2023-01-07-DOM/DOM2.png" alt="Untitled" /></p>
+
+<h2 id="javascript로-문서객체를-생성한다">JavaScript로 문서객체를 생성한다?</h2>
+
+<ul>
+  <li>정적 생성: 웹 브라우저가 HTML 페이지에 적혀 있는 태그를 읽으면 생성</li>
+  <li>동적 생성: HTML 페이지에 없던 문서객체를 JavaScript를 이용해서 생성할 수 있음</li>
+</ul>
+
+<h2 id="dom-사용-예시">DOM 사용 예시</h2>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&lt;</span><span class="err">!</span><span class="na">DOCTYPE</span> <span class="na">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="p">=</span><span class="s">"UTF-8"</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span> 문서객체 모델(DOM)<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="p">=</span> <span class="s">"text/javascript"</span><span class="p">&gt;</span>
+
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">h1</span> <span class="na">id</span><span class="p">=</span><span class="s">"header_1"</span> <span class="na">name</span><span class="p">=</span><span class="s">""</span><span class="p">&gt;</span>HEADER-1 <span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+		<span class="p">&lt;</span><span class="nt">h1</span> <span class="na">id</span><span class="p">=</span><span class="s">"header_2"</span><span class="p">&gt;</span>HEADER-2<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+	<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">hr</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">h1</span> <span class="na">id</span><span class="p">=</span><span class="s">"clock"</span><span class="p">&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div></div>
+
+<p>여기서 javaScript를 통해 동적으로 문서객체를 생성해보겠다.</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">header</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">h2</span><span class="dl">'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">textNode</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createTextNode</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello DOM</span><span class="dl">'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">header</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">textNode</span><span class="p">);</span>
+</code></pre></div></div>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">header</span><span class="p">);</span>
+</code></pre></div></div>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&lt;</span><span class="err">!</span><span class="na">DOCTYPE</span> <span class="na">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="p">=</span><span class="s">"UTF-8"</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span> 문서객체 모델(DOM)<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="p">=</span> <span class="s">"text/javascript"</span><span class="p">&gt;</span>
+	window.onlad = function()<span class="si">{</span>
+		<span class="c1">//1. 문서 객체 생성</span>
+		<span class="kd">var</span> <span class="nx">header</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">h2</span><span class="dl">'</span><span class="p">);</span>
+		<span class="kd">var</span> <span class="nx">textNode</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createTextNode</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello DOM</span><span class="dl">'</span><span class="p">);</span>
+
+		<span class="c1">//2. 노드(요소/텍스트)를 연결</span>
+		<span class="nx">header</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">textNode</span><span class="p">);</span>
+
+		<span class="c1">//3. body 문서 객체에 header 문서 객체를 추가</span>
+		<span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">header</span><span class="p">);</span>
+	<span class="si">}</span>;
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">h1</span> <span class="na">id</span><span class="p">=</span><span class="s">"header_1"</span> <span class="na">name</span><span class="p">=</span><span class="s">""</span><span class="p">&gt;</span>HEADER-1 <span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+		<span class="p">&lt;</span><span class="nt">h1</span> <span class="na">id</span><span class="p">=</span><span class="s">"header_2"</span><span class="p">&gt;</span>HEADER-2<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+	<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">hr</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">h1</span> <span class="na">id</span><span class="p">=</span><span class="s">"clock"</span><span class="p">&gt;&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div></div>
+
+<p>참고: <a href="https://m.blog.naver.com/magnking/220972680805">https://m.blog.naver.com/magnking/220972680805</a></p>
 
         
       </section>
@@ -336,11 +426,11 @@
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/#blog" class="page__taxonomy-item p-category" rel="tag">Blog</a><span class="sep">, </span>
+      <a href="/tags/#dom" class="page__taxonomy-item p-category" rel="tag">DOM</a><span class="sep">, </span>
     
-      <a href="/tags/#git" class="page__taxonomy-item p-category" rel="tag">Git</a><span class="sep">, </span>
+      <a href="/tags/#frontend" class="page__taxonomy-item p-category" rel="tag">Frontend</a><span class="sep">, </span>
     
-      <a href="/tags/#github-page" class="page__taxonomy-item p-category" rel="tag">GitHub Page</a>
+      <a href="/tags/#html" class="page__taxonomy-item p-category" rel="tag">HTML</a>
     
     </span>
   </p>
@@ -357,7 +447,7 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/#blog" class="page__taxonomy-item p-category" rel="tag">Blog</a>
+      <a href="/categories/#frontend-study" class="page__taxonomy-item p-category" rel="tag">Frontend study</a>
     
     </span>
   </p>
@@ -365,7 +455,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-01-06">January 6, 2023</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-01-07">January 7, 2023</time></p>
 
       </footer>
 
@@ -374,22 +464,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=First+post%3A+test%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2Ftestpage%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=What+is+DOM%3F%20http%3A%2F%2Flocalhost%3A4000%2Ffrontend%2520study%2FDOM%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Ftestpage%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ffrontend%2520study%2FDOM%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Ftestpage%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Ffrontend%2520study%2FDOM%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/backend%20study/restapi/" class="pagination--pager" title="REST API
+      <a href="/blog/testpage/" class="pagination--pager" title="First post: test
 ">Previous</a>
     
     
-      <a href="/frontend%20study/DOM/" class="pagination--pager" title="What is DOM?
+      <a href="/blog/githubblog/" class="pagination--pager" title="Github Blog
 ">Next</a>
     
   </nav>
