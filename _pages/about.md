@@ -30,6 +30,7 @@ padding: 5px;
 - postgreSQL
 - mongoDB
 - React
+- Java
 
 </div>
 </details>
@@ -64,12 +65,16 @@ Also, I have so many hobbies, so I can say my hobby is to try new things.
 Mar. 2018 - current 
 
 ## Project Experience
+- **Computer Programming**\\
+Developed a Windows application <a href="https://github.com/chany63/ChanyProject" style="color: #900023; text-decoration: none;">**Delivery Service**</a> using Java spring in Computer Programming class() at Korea University.\\
+Here's the <a href="https://youtu.be/UxVXHnrtQHQ" style="color: #900023; text-decoration: none;">**Demo Video**</a> of using the app service.
 - **Hanium** \\
 Participated in <a href="https://www.hanium.or.kr/" style="color: #900023; text-decoration: none;">**Hanium**</a> project competition under the theme of making a Stock-Trading app.\\
 Apr. 2021 - Dec. 2022
 
 - **Software Security** \\
 Developed a Web application <a href="https://github.com/Team-ILA/icebreaQ-server" style="color: #900023; text-decoration: none;">**icebreaQ**</a> as a backend Developer in Software Security class(COSE451) at Korea University.\\
+Participated in a git CTF about the software vulnerabilities of each other's projects.\\
 Here's the <a href="https://www.rwb0104.tk/" style="color: #900023; text-decoration: none;">**Demo Site**</a> and <a href="https://youtu.be/X4PaFwVboRs" style="color: #900023; text-decoration: none;">**Demo Video**</a>.\\
 Aug. 2022 - Dec. 2022
 
