@@ -3,7 +3,7 @@ permalink: /about/
 title: "About Me"
 excerpt: "About Me"
 search: true
-last_modified_at: 2023-01-06T13:00:00+09:00
+last_modified_at: 2023-01-08T13:00:00+09:00
 toc: true
 toc_sticky: true
 toc_label: "About Me"
@@ -87,7 +87,7 @@ Jan. 2023 - current
 </div>
 </details>
 <details>
-<summary><b><a style="color: #900023; text-decoration: none;">Tech Stacks studying:</a></b></summary>
+<summary><b><a style="color: #900023; text-decoration: none;">Tech Stacks Studying:</a></b></summary>
 <div markdown="1">       
 
 - Nodejs, javascript(+typescript): Experienced(<a href="https://github.com/Team-ILA/icebreaQ-server" style="color: #900023; text-decoration: none;">**icebreaQ**</a>) but not used to it
