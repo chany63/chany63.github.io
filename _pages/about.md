@@ -60,7 +60,7 @@ Participated in a git CTF(<a href="../icebreaQ.pdf" style="color: #900023; text-
 Here's the <a href="https://www.rwb0104.tk/" style="color: #900023; text-decoration: none;">**Demo Site**</a> and <a href="https://youtu.be/X4PaFwVboRs" style="color: #900023; text-decoration: none;">**Demo Video**</a>.\\
 Aug. 2022 - Dec. 2022
 <p></p>
-<center><img src="../icebreaQ1.png" width="90%" height="90%"></center>
+<center><img src="../icebreaQ.png" width="90%" height="90%"></center>
 
 ## Further Career
 - **Gifted Education Center** \\
