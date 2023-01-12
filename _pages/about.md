@@ -43,7 +43,7 @@ Mar. 2018 - current
 
 ## Project Experience
 - **Computer Programming**\\
-Developed a Windows application <a href="https://github.com/chany63/ChanyProject" style="color: #900023; text-decoration: none;">**Dormitory Delivery Service**</a> using Java spring in Computer Programming class(COSE102) at Korea University.\\
+Developed a Windows application <a href="https://github.com/chany63/ChanyProject" style="color: #900023; text-decoration: none;">**Dormitory Delivery Service**</a> using Java in Computer Programming class(COSE102) at Korea University.\\
 Here's the <a href="https://youtu.be/UxVXHnrtQHQ" style="color: #900023; text-decoration: none;">**Demo Video**</a> of using the app service.\\
 Sep. 2018 - Nov. 2018
 
