@@ -21,7 +21,7 @@ padding: 5px;
 
 ## Profile
 <div>Hi, my name is Hongchan Jeon, an undergraduate student in Korea University.
-<p></p>I am looking forward to be an fullstack app developer.</div>
+<p></p>I am looking forward to be a Software developer.</div>
 <p></p>
 To introduce myself more, I have so many hobbies, so maybe I can say my hobby is to try new things.
 <p></p>
