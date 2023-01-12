@@ -81,7 +81,7 @@ Jan. 2023 - current
 - postgreSQL
 - mongoDB
 - React
-- Java(Spring)
+- Java
 - AWS(EC2)
 
 </div>
