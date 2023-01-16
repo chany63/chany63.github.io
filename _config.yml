@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Hongchan Jeon"
   avatar           : "chany.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "App developer & Korea univ. student major in Computer Science"
+  bio              : "Software developer & Korea univ. student major in Computer Science"
   location         : "Seoul, South Korea"
   email            : 
   links:
