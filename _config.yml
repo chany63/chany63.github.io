@@ -128,7 +128,7 @@ author:
       url: "https://github.com/chany63"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/cmdxjchan/"
+      #url: "https://www.instagram.com/cmdxjchan/"
 
 # Site Footer
 footer:
@@ -150,7 +150,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/cmdxjchan/"
+      #url: "https://www.instagram.com/cmdxjchan/"
 
 
 # Reading Files
