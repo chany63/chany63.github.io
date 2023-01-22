@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "custom" # "air", "aqua", "contrast", "dark", "dirt",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hongchan Jeon"
+title                    : "Hongchan Chun"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : &name "Hongchan Jeon"
+name                     : &name "Hongchan Chun"
 description              : &description "Software developer & Korea univ. student major in Computer Science"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -105,9 +105,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hongchan Jeon"
+  name             : "Hongchan Chun"
   avatar           : "chany.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software developer & Korea univ. student major in Computer Science"
+  bio              : "Software developer & Korea Univ. student major in Computer Science"
   location         : "Seoul, South Korea"
   email            : 
   links:
