@@ -20,7 +20,7 @@ title                    : "Hongchan Chun"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : &name "Hongchan Chun"
-description              : &description "Software developer & Korea univ. student major in Computer Science"
+description              : &description "Software developer & Korea Univ. student major in Computer Science"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "chany63/chany63.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
