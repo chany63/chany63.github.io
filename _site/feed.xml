@@ -1,126 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-10T20:06:48+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hongchan Chun</title><subtitle>Software developer &amp; Korea Univ. student major in Computer Science</subtitle><author><name>Hongchan Chun</name></author><entry><title type="html">Python Version Control</title><link href="http://localhost:4000/backend%20study/pythonversion/" rel="alternate" type="text/html" title="Python Version Control" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T09:00:00+09:00</updated><id>http://localhost:4000/backend%20study/pythonversion</id><content type="html" xml:base="http://localhost:4000/backend%20study/pythonversion/">&lt;p&gt;! 파이썬 프로젝트를 만들시에 파이썬 버전에 따라서 쓸 수 있는 명령어 코드가 다름&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-10T21:30:57+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hongchan Chun</title><subtitle>Software developer &amp; Korea Univ. student major in Computer Science</subtitle><author><name>Hongchan Chun</name></author><entry><title type="html">오랜만의 About Me Update - TIL 1일차</title><link href="http://localhost:4000/til/1/" rel="alternate" type="text/html" title="오랜만의 About Me Update - TIL 1일차" /><published>2025-02-10T00:00:00+09:00</published><updated>2025-02-10T20:19:55+09:00</updated><id>http://localhost:4000/til/1</id><content type="html" xml:base="http://localhost:4000/til/1/">&lt;p&gt;인생 처음으로 취업을 준비하게 되었다.&lt;/p&gt;
 
-&lt;h2 id=&quot;시작하기에-앞서-파이썬-버전-관리가-왜-중요할까&quot;&gt;시작하기에 앞서, 파이썬 버전 관리가 왜 중요할까?&lt;/h2&gt;
+&lt;p&gt;처음 인턴을 준비할 때 포트폴리오 제출을 위해 이 블로그를 만들었는데 &lt;del&gt;물론 인턴인 줄 알고 들어간 기업에서 갑작스럽게 메인 개발자가 되어 고생이란 고생은 다 겪었지만..&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;이제는 진짜 취업을 위해 포트폴리오를 업데이트 해야할 때가 왔다.&lt;/p&gt;
+
+&lt;p&gt;2023년 1월 이후로 처음 블로그를 업데이트했는데, 정리해보니 생각보다 많은 것들을 했다는 생각에 뿌듯하다. 그리고 그걸 다 기억해서 써낸 내가 뿌듯하다ㅋㅋㅋ&lt;/p&gt;
+
+&lt;p&gt;어쨋든 다시금 블로그를 쓰게 되었는데, 이번에는 좀 제대로 해보지 않을까 생각이 든다…&lt;/p&gt;
+
+&lt;h2 id=&quot;blog-업데이트&quot;&gt;Blog 업데이트&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;설명하기 어렵지만, 본인의 상황을 예로 들자면, 파이썬이라는 언어는 계속해서 사용자가 직관적으로 이용하기에 점점 편한 방향으로 업데이트됨, 즉 조금 실수하더라도 저절로 고쳐주고, 형식에 맞지 않아도 저절로 인식함 근데 웹에서 설명하는 코드 그대로 다른 버전에서 돌리면 자동적으로 error나 warning을 해결해주는걸 못하게 됨. 반드시 명시된 파이썬 버전이나 라이브러리 요구사항에 맞춰 설치 후 개발을 진행해야함&lt;/li&gt;
-  &lt;li&gt;만약 개발 중에 오류가 생기면 다시금 필요에 맞게 버전을 변경해야 하는 경우가 생기는데 필자는 이 경우를 기준으로 매뉴얼을 작성하였음. 연습이 필요하지 않다면 5번부터 보면 됨&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;사실 내일배움캠프를 참여하게 되었는데, 사전캠프에서 블로그를 작성하는 일이 있길래 전에 만들었던 블로그를 다시 열어보았다.&lt;/p&gt;
+
+    &lt;p&gt;모두가 velog와 tistory를 쓰며 &lt;strong&gt;글쓰기&lt;/strong&gt; 버튼을 클릭할 때 github page를 쓰며 일일이 마크다운 문법을 활용하는 것은 것은 정말 &lt;strong&gt;사서 고생&lt;/strong&gt;이라고 생각하긴 하지만,&lt;/p&gt;
+
+    &lt;p&gt;한 번이라도 &lt;em&gt;git push&lt;/em&gt;를 더하겠다는 심정으로 선정하였다. 깃허브 overview에 &lt;strong&gt;잔디가 빈 틈 없이 자라 있는 모습&lt;/strong&gt;이 왠지 모르게 자랑스럽기 때문이다.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/img/2025-02-10-portfolioupdate/github.png&quot; alt=&quot;깃허브스크린샷&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;del&gt;퇴사한 이후로 가뭄이 온 건 비밀이다.&lt;/del&gt;&lt;/p&gt;
+
+    &lt;p&gt;물론 다른 블로그들에 비해서 &lt;strong&gt;훠어어어얼씬&lt;/strong&gt;(과장 아님) 이쁘게 만들 수 있는 것이 아주 큰 장점이기도 하다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;About Me 페이지 업데이트&lt;/p&gt;
+
+    &lt;p&gt;취준에서 가장 우선적으로 해야하는 것은 나를 아는 것, 나를 객관화하는 것이라고 생각한다. 그동안 했던 프로젝트, 근무했던 회사, 수상내역 등을 정리했다.&lt;/p&gt;
+
+    &lt;p&gt;_config.yml 파일을 열어서 새로이 email 주소를 업데이트했다.&lt;/p&gt;
+
+    &lt;p&gt;크기에 알맞게 손수 조정한 포트폴리오 속 필요한 이미지, 파일 등등을 root 폴더에 넣고 _pages 폴더에 About Me 페이지 내용을 업데이트했다.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;업데이트를 하는데에 불편함이 발생했다.&lt;/p&gt;
+
+        &lt;p&gt;처음 이 블로그를 쓸 때는 개발 실무 경험이 매우 없었기 때문에 몰라서 매번 배포 후 테스트했을지 모르겠지만, 프론트엔드 개발할 때에는 &lt;strong&gt;로컬 환경 테스팅&lt;/strong&gt;이 너무나도 중요하다.&lt;/p&gt;
+
+        &lt;p&gt;코드를 로컬에서 수정할 때마다 화면이 어떻게 바뀌는지 실시간으로 확인을 못한다고 생각하면 세상에는 프론트엔드 개발자가 없을 것이다. &lt;del&gt;있다 하더라도 다 대머리 빡빡이가 됐을 것이다.&lt;/del&gt;&lt;/p&gt;
+
+        &lt;p&gt;그래서 이번에는 로컬에서 jekyll을 활용하여 블로그를 수정하고 실시간으로 확인할 수 있도록 환경을 구축하였다.&lt;/p&gt;
+
+        &lt;ol&gt;
+          &lt;li&gt;
+            &lt;p&gt;jekyll 설치(ruby와 본인이 쓰는 터미널이 설치되어 있다는 가정 하에)&lt;/p&gt;
+
+            &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ gem install jekyll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;            &lt;/div&gt;
+
+            &lt;p&gt;성공 화면은 넘어가겠다…&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;jekyll 서버 실행&lt;/p&gt;
+
+            &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ bundle exec jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;            &lt;/div&gt;
+
+            &lt;p&gt;여기서 bundle exec는 지정된 gem 환경에서 Jekyll을 실행하겠다는 의미이다.&lt;/p&gt;
+
+            &lt;p&gt;jekyll serve까지 입력하면 로컬에서 서버를 시작해준다.&lt;/p&gt;
+
+            &lt;p&gt;&lt;img src=&quot;/assets/img/2025-02-10-portfolioupdate/jekyll-serve.png&quot; alt=&quot;성공 화면&quot; /&gt;&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;브라우저에서 확인&lt;/p&gt;
+
+            &lt;p&gt;브라우저에서 localhost:4000으로 접속하면 로컬에서 수정한 내용을 실시간으로 확인할 수 있다.&lt;/p&gt;
+
+            &lt;p&gt;&lt;img src=&quot;/assets/img/2025-02-10-portfolioupdate/localhost.png&quot; alt=&quot;참고&quot; /&gt;&lt;/p&gt;
+
+            &lt;p&gt;터미널에서도 수정 내용이 반영되는 것을 확인할 수 있다.&lt;/p&gt;
+
+            &lt;p&gt;&lt;img src=&quot;/assets/img/2025-02-10-portfolioupdate/terminal.png&quot; alt=&quot;참고&quot; /&gt;&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;파이썬-가상환경-만들기---macos&quot;&gt;파이썬 가상환경 만들기 - macOS&lt;/h2&gt;
-
-&lt;h3 id=&quot;가상환경을-만들고-관리하는-모듈을-venv라고-한다&quot;&gt;가상환경을 만들고 관리하는 모듈을 venv라고 한다.&lt;/h3&gt;
+&lt;h2 id=&quot;todo&quot;&gt;TODO&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;venv는 보통 사람들이 사용할 수 있는 최신 버전의 python을 설치한다.&lt;/li&gt;
-  &lt;li&gt;하지만 시스템에 여러버전의 파이썬이 있는 경우, python3 또는 원하는 버전을 실행하여 특정 파이썬을 선택할 수 있다.&lt;/li&gt;
-  &lt;li&gt;가상환경을 만들려면 가상환경을 만들 디렉터리를 지정하고 venv 모듈을 스크립트로 실행하는데 디렉터리 경로를 명령행 인자로 전달해야 한다. (참고: root/개발공부/linux)\&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;span&gt;1.&lt;/span&gt; 가상환경 디렉터리 생성 및 생성한 디렉으로 이동&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;project&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;project&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;span&gt;2.&lt;/span&gt; 지정한 디렉에 가상환경 작성&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;.venv 파일은 숨김파일로 돼 있어 보이지 않음 → ls -a(.으로 시작하는 파일명을 포함한 숨김파일 표시)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;span&gt;3.&lt;/span&gt; 가상환경 활성화&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;activate&lt;/span&gt;
-
-&lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt;
-
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;activate&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;/----&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;프로젝트&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;디렉터리&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;경로&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;----/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;V&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;여기서 문제 발생: 특정 파이썬 버전을 사용해야 할 경우에는 python3 -m venv .venv를 사용하면 버전을 수정하기 곤란한 상황임&lt;/p&gt;
-
-&lt;p&gt;어쩔 수 없이 버전관리를 도와주는 pyenv 패키지를 설치해야겠다.&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;4.&lt;/span&gt; 가상환경 비활성화&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deactivate&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;span&gt;5.&lt;/span&gt; 버전 관리를 위한 pyenv 패키지 설치&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pyenv&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyenv&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyenv&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;global&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyenv&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#3.10.4 (set by /Users/chanymac/.pyenv/version)
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;span&gt;6.&lt;/span&gt; 쉘 경로 추가&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;if command -v pyenv 1&amp;gt;/dev/null 2&amp;gt;&amp;amp;1; then&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;  eval &quot;$(pyenv init -)&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;fi&apos;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zshrc&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zshrc&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zshrc&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#/Users/chanymac/.pyenv/shims/python3
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#Python 3.10.4
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;span&gt;7.&lt;/span&gt; 라이브러리 백업&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;가상환경 내에 설치했던 라이브러리 백업&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freeze&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requirements&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;백업 내용 추출&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requirements&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;span&gt;8.&lt;/span&gt; 가상환경의 파이썬 삭제 후 변경&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;V&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;3.의 가상환경 활성화로 돌아가 버전을 확인해보면 특정 파이썬 버전으로 지정됨을 확인 가능&lt;/li&gt;
-  &lt;li&gt;7.의 백업 내용 추출로 라이브러리를 다시 설치해주면 파이썬 버전만 변경된 채로 다시 복구시킬 수 있음&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;하면서-궁금해졌던-점&quot;&gt;하면서 궁금해졌던 점&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;쉘 스크립트? 대체 저 문구는 뭘 의미할까(형진이형 노션 참고: &lt;a href=&quot;https://www.notion.so/J165-Day-02-Linux-bae0f3e947d6429d9f2ea9c5d7926c4f&quot;&gt;https://hjin8.notion.site/J165-Day-02-Linux-bae0f3e947d6429d9f2ea9c5d7926c4f&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;zshrc는 뭘까 좀 더 쉽게 파이썬 버전만을 바꾸는 방법은 없는걸까?&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="Python" /><summary type="html">! 파이썬 프로젝트를 만들시에 파이썬 버전에 따라서 쓸 수 있는 명령어 코드가 다름</summary></entry><entry><title type="html">About React</title><link href="http://localhost:4000/frontend%20study/react/" rel="alternate" type="text/html" title="About React" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T13:00:00+09:00</updated><id>http://localhost:4000/frontend%20study/react</id><content type="html" xml:base="http://localhost:4000/frontend%20study/react/">&lt;p&gt;참고 사이트: &lt;a href=&quot;https://ko.reactjs.org/docs/add-react-to-a-website.html#add-react-in-one-minute&quot;&gt;웹사이트에 React추가하는 예제 보고 react 연습하기&lt;/a&gt;&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;블로그 내용 싹 보기(지식이 없던 옛날 내가 쓴 글들이 어떤 내용이었는지 궁금하다..아니 불안하다..)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;수강신청 및 본격적 학습 스타또~&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Hongchan Chun</name></author><category term="TIL" /><category term="Blog" /><category term="GitHub Page" /><category term="TIL" /><summary type="html">인생 처음으로 취업을 준비하게 되었다.</summary></entry><entry><title type="html">About React</title><link href="http://localhost:4000/frontend%20study/react/" rel="alternate" type="text/html" title="About React" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T13:00:00+09:00</updated><id>http://localhost:4000/frontend%20study/react</id><content type="html" xml:base="http://localhost:4000/frontend%20study/react/">&lt;p&gt;참고 사이트: &lt;a href=&quot;https://ko.reactjs.org/docs/add-react-to-a-website.html#add-react-in-one-minute&quot;&gt;웹사이트에 React추가하는 예제 보고 react 연습하기&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;like_button_container&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
 
@@ -438,7 +408,38 @@
 &lt;span class=&quot;nx&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Clock&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;이제 Clock이 현재 시각을 한 컴포넌트로써 나타내줄 수 있게 해주었다. 이제 해줘야 할건 setInterval의 역할을 담당하는 생명주기 추가&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Frontend study" /><category term="Frontend" /><category term="HTML" /><category term="React" /><summary type="html">참고 사이트: 웹사이트에 React추가하는 예제 보고 react 연습하기</summary></entry><entry><title type="html">Github Blog</title><link href="http://localhost:4000/blog/githubblog/" rel="alternate" type="text/html" title="Github Blog" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T19:00:00+09:00</updated><id>http://localhost:4000/blog/githubblog</id><content type="html" xml:base="http://localhost:4000/blog/githubblog/">&lt;p&gt;첫 인턴을 준비하던 주중, 포트폴리오와 이력서 제출을 해야하는데 아직 만들어 놓은 것이 없어 여러 양식을 참고하다가 &lt;a href=&quot;http://github.io&quot;&gt;github.io&lt;/a&gt;를 이용해 나만의 블로그를 만들기로 하였다.&lt;/p&gt;
+&lt;p&gt;이제 Clock이 현재 시각을 한 컴포넌트로써 나타내줄 수 있게 해주었다. 이제 해줘야 할건 setInterval의 역할을 담당하는 생명주기 추가&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Frontend study" /><category term="Frontend" /><category term="HTML" /><category term="React" /><summary type="html">참고 사이트: 웹사이트에 React추가하는 예제 보고 react 연습하기</summary></entry><entry><title type="html">SQLAlchemy</title><link href="http://localhost:4000/backend%20study/sqlalchemy/" rel="alternate" type="text/html" title="SQLAlchemy" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T01:00:00+09:00</updated><id>http://localhost:4000/backend%20study/sqlalchemy</id><content type="html" xml:base="http://localhost:4000/backend%20study/sqlalchemy/">&lt;h2 id=&quot;sqlalchemy&quot;&gt;SQLAlchemy&lt;/h2&gt;
+
+&lt;p&gt;들어가기에 앞서, 본인은 postgresql을 사용할 것이기 때문에 postgresql를 먼저 설치해줘야 한다&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;postgresql&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Python에서 postgresql을 사용하기 위해서는 psycopg2 라이브러리를 사용해야 한다.&lt;/p&gt;
+
+&lt;p&gt;psycopg2의 경우 유니코드와 python3를 모두 지원하므로 가장 널리 쓰이는 라이브러리 중 하나.&lt;/p&gt;
+
+&lt;p&gt;JDBC와 같은 Database 커넥터이기 때문에 다음과 같은 기능을 지원한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Database 연결과 해제&lt;/li&gt;
+  &lt;li&gt;SQL 실행과 트랜잭션 발생&lt;/li&gt;
+  &lt;li&gt;결과 반환&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;postgresql을 Python 환경에서 사용하는 준비는 모두 끝났다!&lt;/p&gt;
+
+&lt;h3 id=&quot;1-sqlalchemy설치&quot;&gt;1. SQLalchemy설치&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqlalchemy&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2-드라이버engine-및-세션session-로드&quot;&gt;2. 드라이버(Engine) 및 세션(session) 로드&lt;/h3&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sqlalchemy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;engine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;postgresql://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:5432/&amp;lt;dbname&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="DB" /><category term="SQL" /><category term="Python" /><summary type="html">SQLAlchemy</summary></entry><entry><title type="html">Github Blog</title><link href="http://localhost:4000/blog/githubblog/" rel="alternate" type="text/html" title="Github Blog" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T19:00:00+09:00</updated><id>http://localhost:4000/blog/githubblog</id><content type="html" xml:base="http://localhost:4000/blog/githubblog/">&lt;p&gt;첫 인턴을 준비하던 주중, 포트폴리오와 이력서 제출을 해야하는데 아직 만들어 놓은 것이 없어 여러 양식을 참고하다가 &lt;a href=&quot;http://github.io&quot;&gt;github.io&lt;/a&gt;를 이용해 나만의 블로그를 만들기로 하였다.&lt;/p&gt;
 
 &lt;p&gt;여러 블로그를 찾아보며 블로그 만드는 데에 참고하였지만, apple silicon을 사용하는 블로거는 찾기 힘들어 직접 만들어 보기로 하였다.&lt;/p&gt;
 
@@ -732,38 +733,7 @@
 &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;참고: &lt;a href=&quot;https://m.blog.naver.com/magnking/220972680805&quot;&gt;https://m.blog.naver.com/magnking/220972680805&lt;/a&gt;&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Frontend study" /><category term="Frontend" /><category term="HTML" /><category term="DOM" /><summary type="html">DOM이란?</summary></entry><entry><title type="html">SQLAlchemy</title><link href="http://localhost:4000/backend%20study/sqlalchemy/" rel="alternate" type="text/html" title="SQLAlchemy" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T01:00:00+09:00</updated><id>http://localhost:4000/backend%20study/sqlalchemy</id><content type="html" xml:base="http://localhost:4000/backend%20study/sqlalchemy/">&lt;h2 id=&quot;sqlalchemy&quot;&gt;SQLAlchemy&lt;/h2&gt;
-
-&lt;p&gt;들어가기에 앞서, 본인은 postgresql을 사용할 것이기 때문에 postgresql를 먼저 설치해줘야 한다&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;postgresql&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Python에서 postgresql을 사용하기 위해서는 psycopg2 라이브러리를 사용해야 한다.&lt;/p&gt;
-
-&lt;p&gt;psycopg2의 경우 유니코드와 python3를 모두 지원하므로 가장 널리 쓰이는 라이브러리 중 하나.&lt;/p&gt;
-
-&lt;p&gt;JDBC와 같은 Database 커넥터이기 때문에 다음과 같은 기능을 지원한다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Database 연결과 해제&lt;/li&gt;
-  &lt;li&gt;SQL 실행과 트랜잭션 발생&lt;/li&gt;
-  &lt;li&gt;결과 반환&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;postgresql을 Python 환경에서 사용하는 준비는 모두 끝났다!&lt;/p&gt;
-
-&lt;h3 id=&quot;1-sqlalchemy설치&quot;&gt;1. SQLalchemy설치&lt;/h3&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqlalchemy&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;2-드라이버engine-및-세션session-로드&quot;&gt;2. 드라이버(Engine) 및 세션(session) 로드&lt;/h3&gt;
-
-&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sqlalchemy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;engine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;postgresql://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:5432/&amp;lt;dbname&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="DB" /><category term="SQL" /><category term="Python" /><summary type="html">SQLAlchemy</summary></entry><entry><title type="html">About JSON</title><link href="http://localhost:4000/backend%20study/json/" rel="alternate" type="text/html" title="About JSON" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T11:00:00+09:00</updated><id>http://localhost:4000/backend%20study/json</id><content type="html" xml:base="http://localhost:4000/backend%20study/json/">&lt;h2 id=&quot;json-javascript-object-notation&quot;&gt;JSON (JavaScript Object Notation)&lt;/h2&gt;
+&lt;p&gt;참고: &lt;a href=&quot;https://m.blog.naver.com/magnking/220972680805&quot;&gt;https://m.blog.naver.com/magnking/220972680805&lt;/a&gt;&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Frontend study" /><category term="Frontend" /><category term="HTML" /><category term="DOM" /><summary type="html">DOM이란?</summary></entry><entry><title type="html">About JSON</title><link href="http://localhost:4000/backend%20study/json/" rel="alternate" type="text/html" title="About JSON" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T11:00:00+09:00</updated><id>http://localhost:4000/backend%20study/json</id><content type="html" xml:base="http://localhost:4000/backend%20study/json/">&lt;h2 id=&quot;json-javascript-object-notation&quot;&gt;JSON (JavaScript Object Notation)&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;JavaScript Object Notation라는 의미의 축약어로 데이터를 저장하거나 전송할 때 많이 사용되는 &lt;strong&gt;경량의 DATA 교환 형식&lt;/strong&gt;&lt;/li&gt;
@@ -791,7 +761,144 @@
   &lt;li&gt;모든 수집하는 데이터를 JSON 형식과 맞춰주다 보니 파이썬에서 딕셔너리를 만드는 과정을 정말 많이 거치게 됐는데, 공부하던 중 파이썬에 내장되어 있는 zip이라는 꽤나 재미있고 유용한 함수를 발견함&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;zip함수-더-알아보기&quot;&gt;zip()함수 더 알아보기&lt;/h3&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="Javascript" /><summary type="html">JSON (JavaScript Object Notation)</summary></entry><entry><title type="html">Simple linux commands</title><link href="http://localhost:4000/linux/linuxcmd/" rel="alternate" type="text/html" title="Simple linux commands" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T17:00:00+09:00</updated><id>http://localhost:4000/linux/linuxcmd</id><content type="html" xml:base="http://localhost:4000/linux/linuxcmd/">&lt;h2 id=&quot;리눅스-명령어&quot;&gt;리눅스 명령어&lt;/h2&gt;
+&lt;h3 id=&quot;zip함수-더-알아보기&quot;&gt;zip()함수 더 알아보기&lt;/h3&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="Javascript" /><summary type="html">JSON (JavaScript Object Notation)</summary></entry><entry><title type="html">Python Version Control</title><link href="http://localhost:4000/backend%20study/pythonversion/" rel="alternate" type="text/html" title="Python Version Control" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T09:00:00+09:00</updated><id>http://localhost:4000/backend%20study/pythonversion</id><content type="html" xml:base="http://localhost:4000/backend%20study/pythonversion/">&lt;p&gt;! 파이썬 프로젝트를 만들시에 파이썬 버전에 따라서 쓸 수 있는 명령어 코드가 다름&lt;/p&gt;
+
+&lt;h2 id=&quot;시작하기에-앞서-파이썬-버전-관리가-왜-중요할까&quot;&gt;시작하기에 앞서, 파이썬 버전 관리가 왜 중요할까?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;설명하기 어렵지만, 본인의 상황을 예로 들자면, 파이썬이라는 언어는 계속해서 사용자가 직관적으로 이용하기에 점점 편한 방향으로 업데이트됨, 즉 조금 실수하더라도 저절로 고쳐주고, 형식에 맞지 않아도 저절로 인식함 근데 웹에서 설명하는 코드 그대로 다른 버전에서 돌리면 자동적으로 error나 warning을 해결해주는걸 못하게 됨. 반드시 명시된 파이썬 버전이나 라이브러리 요구사항에 맞춰 설치 후 개발을 진행해야함&lt;/li&gt;
+  &lt;li&gt;만약 개발 중에 오류가 생기면 다시금 필요에 맞게 버전을 변경해야 하는 경우가 생기는데 필자는 이 경우를 기준으로 매뉴얼을 작성하였음. 연습이 필요하지 않다면 5번부터 보면 됨&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;파이썬-가상환경-만들기---macos&quot;&gt;파이썬 가상환경 만들기 - macOS&lt;/h2&gt;
+
+&lt;h3 id=&quot;가상환경을-만들고-관리하는-모듈을-venv라고-한다&quot;&gt;가상환경을 만들고 관리하는 모듈을 venv라고 한다.&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;venv는 보통 사람들이 사용할 수 있는 최신 버전의 python을 설치한다.&lt;/li&gt;
+  &lt;li&gt;하지만 시스템에 여러버전의 파이썬이 있는 경우, python3 또는 원하는 버전을 실행하여 특정 파이썬을 선택할 수 있다.&lt;/li&gt;
+  &lt;li&gt;가상환경을 만들려면 가상환경을 만들 디렉터리를 지정하고 venv 모듈을 스크립트로 실행하는데 디렉터리 경로를 명령행 인자로 전달해야 한다. (참고: root/개발공부/linux)\&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span&gt;1.&lt;/span&gt; 가상환경 디렉터리 생성 및 생성한 디렉으로 이동&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;project&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;project&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span&gt;2.&lt;/span&gt; 지정한 디렉에 가상환경 작성&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;.venv 파일은 숨김파일로 돼 있어 보이지 않음 → ls -a(.으로 시작하는 파일명을 포함한 숨김파일 표시)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span&gt;3.&lt;/span&gt; 가상환경 활성화&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;activate&lt;/span&gt;
+
+&lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt;
+
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;activate&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;/----&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;프로젝트&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;디렉터리&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;경로&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;----/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;V&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;여기서 문제 발생: 특정 파이썬 버전을 사용해야 할 경우에는 python3 -m venv .venv를 사용하면 버전을 수정하기 곤란한 상황임&lt;/p&gt;
+
+&lt;p&gt;어쩔 수 없이 버전관리를 도와주는 pyenv 패키지를 설치해야겠다.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;4.&lt;/span&gt; 가상환경 비활성화&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deactivate&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span&gt;5.&lt;/span&gt; 버전 관리를 위한 pyenv 패키지 설치&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pyenv&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyenv&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyenv&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;global&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyenv&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#3.10.4 (set by /Users/chanymac/.pyenv/version)
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span&gt;6.&lt;/span&gt; 쉘 경로 추가&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;if command -v pyenv 1&amp;gt;/dev/null 2&amp;gt;&amp;amp;1; then&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;  eval &quot;$(pyenv init -)&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;fi&apos;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zshrc&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zshrc&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zshrc&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#/Users/chanymac/.pyenv/shims/python3
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#Python 3.10.4
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span&gt;7.&lt;/span&gt; 라이브러리 백업&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;가상환경 내에 설치했던 라이브러리 백업&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;freeze&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requirements&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;백업 내용 추출&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requirements&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span&gt;8.&lt;/span&gt; 가상환경의 파이썬 삭제 후 변경&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;V&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;venv&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3.의 가상환경 활성화로 돌아가 버전을 확인해보면 특정 파이썬 버전으로 지정됨을 확인 가능&lt;/li&gt;
+  &lt;li&gt;7.의 백업 내용 추출로 라이브러리를 다시 설치해주면 파이썬 버전만 변경된 채로 다시 복구시킬 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;하면서-궁금해졌던-점&quot;&gt;하면서 궁금해졌던 점&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;쉘 스크립트? 대체 저 문구는 뭘 의미할까(형진이형 노션 참고: &lt;a href=&quot;https://www.notion.so/J165-Day-02-Linux-bae0f3e947d6429d9f2ea9c5d7926c4f&quot;&gt;https://hjin8.notion.site/J165-Day-02-Linux-bae0f3e947d6429d9f2ea9c5d7926c4f&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;zshrc는 뭘까 좀 더 쉽게 파이썬 버전만을 바꾸는 방법은 없는걸까?&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="Python" /><summary type="html">! 파이썬 프로젝트를 만들시에 파이썬 버전에 따라서 쓸 수 있는 명령어 코드가 다름</summary></entry><entry><title type="html">REST API</title><link href="http://localhost:4000/backend%20study/restapi/" rel="alternate" type="text/html" title="REST API" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T17:00:00+09:00</updated><id>http://localhost:4000/backend%20study/restapi</id><content type="html" xml:base="http://localhost:4000/backend%20study/restapi/">&lt;h2 id=&quot;rest란&quot;&gt;REST란?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;자원을 이름으로 구분하여 해당 자원의 상태를 주고받는 것&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;상태전달-형식&quot;&gt;상태전달 형식&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;데이터가 요청되는 시점에서 정보 전달&lt;/li&gt;
+  &lt;li&gt;JSON 혹은 XML을 통해 데이터를 주고받음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;= 즉 REST는 네트워크 상에서 서버와 클라이언트 사이의 통신 방식 중 하나&lt;/p&gt;
+
+&lt;p&gt;해당 포스트는 &lt;a href=&quot;https://meetup.nhncloud.com/posts/92&quot;&gt;REST API 제대로 알고 사용하기 : NHN Cloud Meetup&lt;/a&gt;를 참조하여 만들었습니다.&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="DB" /><summary type="html">REST란?</summary></entry><entry><title type="html">First post: test</title><link href="http://localhost:4000/blog/testpage/" rel="alternate" type="text/html" title="First post: test" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T16:00:00+09:00</updated><id>http://localhost:4000/blog/testpage</id><content type="html" xml:base="http://localhost:4000/blog/testpage/">&lt;p&gt;this is a test page&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Blog" /><category term="Blog" /><category term="GitHub Page" /><category term="Git" /><summary type="html">this is a test page</summary></entry><entry><title type="html">Simple linux commands</title><link href="http://localhost:4000/linux/linuxcmd/" rel="alternate" type="text/html" title="Simple linux commands" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T17:00:00+09:00</updated><id>http://localhost:4000/linux/linuxcmd</id><content type="html" xml:base="http://localhost:4000/linux/linuxcmd/">&lt;h2 id=&quot;리눅스-명령어&quot;&gt;리눅스 명령어&lt;/h2&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -851,19 +958,4 @@
   &lt;li&gt;상위 폴더의 상위 폴더: ../../&lt;/li&gt;
   &lt;li&gt;최상위 폴더: /&lt;/li&gt;
   &lt;li&gt;default: ~&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hongchan Chun</name></author><category term="Linux" /><category term="Linux" /><summary type="html">리눅스 명령어</summary></entry><entry><title type="html">REST API</title><link href="http://localhost:4000/backend%20study/restapi/" rel="alternate" type="text/html" title="REST API" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T17:00:00+09:00</updated><id>http://localhost:4000/backend%20study/restapi</id><content type="html" xml:base="http://localhost:4000/backend%20study/restapi/">&lt;h2 id=&quot;rest란&quot;&gt;REST란?&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;자원을 이름으로 구분하여 해당 자원의 상태를 주고받는 것&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;상태전달-형식&quot;&gt;상태전달 형식&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;데이터가 요청되는 시점에서 정보 전달&lt;/li&gt;
-  &lt;li&gt;JSON 혹은 XML을 통해 데이터를 주고받음&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;= 즉 REST는 네트워크 상에서 서버와 클라이언트 사이의 통신 방식 중 하나&lt;/p&gt;
-
-&lt;p&gt;해당 포스트는 &lt;a href=&quot;https://meetup.nhncloud.com/posts/92&quot;&gt;REST API 제대로 알고 사용하기 : NHN Cloud Meetup&lt;/a&gt;를 참조하여 만들었습니다.&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="DB" /><summary type="html">REST란?</summary></entry><entry><title type="html">First post: test</title><link href="http://localhost:4000/blog/testpage/" rel="alternate" type="text/html" title="First post: test" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T16:00:00+09:00</updated><id>http://localhost:4000/blog/testpage</id><content type="html" xml:base="http://localhost:4000/blog/testpage/">&lt;p&gt;this is a test page&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Blog" /><category term="Blog" /><category term="GitHub Page" /><category term="Git" /><summary type="html">this is a test page</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Hongchan Chun</name></author><category term="Linux" /><category term="Linux" /><summary type="html">리눅스 명령어</summary></entry></feed>
