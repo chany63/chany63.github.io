@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-10T22:00:41+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hongchan Chun</title><subtitle>Software developer &amp; Korea Univ. student major in Computer Science</subtitle><author><name>Hongchan Chun</name></author><entry><title type="html">오랜만의 About Me Update - TIL 1일차</title><link href="http://localhost:4000/til/1/" rel="alternate" type="text/html" title="오랜만의 About Me Update - TIL 1일차" /><published>2025-02-10T00:00:00+09:00</published><updated>2025-02-10T20:19:55+09:00</updated><id>http://localhost:4000/til/1</id><content type="html" xml:base="http://localhost:4000/til/1/">&lt;p&gt;인생 처음으로 취업을 준비하게 되었다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-11T20:12:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hongchan Chun</title><subtitle>Software developer &amp; Korea Univ. student major in Computer Science</subtitle><author><name>Hongchan Chun</name></author><entry><title type="html">오랜만의 About Me Update - TIL 1일차</title><link href="http://localhost:4000/til/1/" rel="alternate" type="text/html" title="오랜만의 About Me Update - TIL 1일차" /><published>2025-02-10T00:00:00+09:00</published><updated>2025-02-10T20:19:55+09:00</updated><id>http://localhost:4000/til/1</id><content type="html" xml:base="http://localhost:4000/til/1/">&lt;p&gt;인생 처음으로 취업을 준비하게 되었다.&lt;/p&gt;
 
 &lt;p&gt;처음 인턴을 준비할 때 포트폴리오 제출을 위해 이 블로그를 만들었는데 &lt;del&gt;물론 인턴인 줄 알고 들어간 기업에서 갑작스럽게 메인 개발자가 되어 고생이란 고생은 다 겪었지만..&lt;/del&gt;&lt;/p&gt;
 
@@ -90,7 +90,86 @@
   &lt;li&gt;
     &lt;p&gt;수강신청 및 본격적 학습 스타또~&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hongchan Chun</name></author><category term="TIL" /><category term="Blog" /><category term="GitHub Page" /><category term="TIL" /><summary type="html">인생 처음으로 취업을 준비하게 되었다.</summary></entry><entry><title type="html">About React</title><link href="http://localhost:4000/frontend%20study/react/" rel="alternate" type="text/html" title="About React" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T13:00:00+09:00</updated><id>http://localhost:4000/frontend%20study/react</id><content type="html" xml:base="http://localhost:4000/frontend%20study/react/">&lt;p&gt;참고 사이트: &lt;a href=&quot;https://ko.reactjs.org/docs/add-react-to-a-website.html#add-react-in-one-minute&quot;&gt;웹사이트에 React추가하는 예제 보고 react 연습하기&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Hongchan Chun</name></author><category term="TIL" /><category term="Blog" /><category term="GitHub Page" /><category term="TIL" /><summary type="html">인생 처음으로 취업을 준비하게 되었다.</summary></entry><entry><title type="html">본격적인 Java 공부를 위한 준비 - TIL 2일차</title><link href="http://localhost:4000/til/2/" rel="alternate" type="text/html" title="본격적인 Java 공부를 위한 준비 - TIL 2일차" /><published>2025-02-10T00:00:00+09:00</published><updated>2025-02-11T20:12:55+09:00</updated><id>http://localhost:4000/til/2</id><content type="html" xml:base="http://localhost:4000/til/2/">&lt;p&gt;어제부터 거진 밤을 새어가며 취준을 하는데에 있어서 나에게 필요한게 무엇인지, 어떤 방향으로 나아가야 하는지에 대해 고민을 많이 했다.&lt;/p&gt;
+
+&lt;p&gt;결론은 어쩌면 내일배움캠프를 참여하지 않게 될 것 같다는 것이다.&lt;/p&gt;
+
+&lt;p&gt;너무 좋은 프로그램인 것 같지만 &lt;strong&gt;전공자&lt;/strong&gt;인 나에게 효율적인 시간 분배가 어려울 수도 있겠다, 또 분명 나에게 적합한 더 좋은 선택지가 있겠다는 생각이 들었다.&lt;/p&gt;
+
+&lt;p&gt;어쨋든 사전캠프 하루 참여한 시간이 취업에 대해 무지한 나를 이렇게까지 생각하게 만들었다는게 참 고맙다는 생각이 들었다.&lt;/p&gt;
+
+&lt;p&gt;그래서 가능하다면 사전캠프는 끝까지 참여하고 싶은 마음이다.&lt;/p&gt;
+
+&lt;p&gt;생각하는 시간이 많아서 오늘 학습은 일단 정말 딱 Java 환경설정만 하였다. 나는 Java 개발환경조차 설정이 안되어 있었다, 맙소사.&lt;/p&gt;
+
+&lt;h2 id=&quot;java-환경설정apple-silicon-기준&quot;&gt;Java 환경설정(Apple Silicon 기준)&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;JDK 설치&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;OpenJDK 설치&lt;/p&gt;
+
+        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ brew install openjdk@11
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+
+        &lt;p&gt;설치 후 환경변수 설정&lt;/p&gt;
+
+        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ echo &apos;export JAVA_HOME=$(/usr/libexec/java_home)&apos; &amp;gt;&amp;gt; ~/.zshrc
+$ echo &apos;export PATH=$JAVA_HOME/bin:$PATH&apos; &amp;gt;&amp;gt; ~/.zshrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+
+        &lt;p&gt;&lt;img src=&quot;/assets/img/2025-02-10-2/zshrc.png&quot; alt=&quot;참고&quot; /&gt;&lt;/p&gt;
+
+        &lt;p&gt;환경변수 설정 후 적용&lt;/p&gt;
+
+        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ source ~/.zshrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+
+        &lt;p&gt;설치 확인&lt;/p&gt;
+
+        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java --version
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+
+        &lt;p&gt;&lt;img src=&quot;/assets/img/2025-02-10-2/java.png&quot; alt=&quot;참고&quot; /&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;IDE 설치&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;나는 기존에 쓰던 VSCode를 사용하였기 때문에 따로 IDE를 설치하지 않았다.&lt;/p&gt;
+
+&lt;p&gt;권장되는 IDE인 IntelliJ를 써본 적이 있었는데, 뭐랄까 아직은 좀 불편한 느낌이었다. 상용화가 덜 된 느낌?&lt;/p&gt;
+
+&lt;h2 id=&quot;얼추-앞으로-이루어야할-목표들을-정리한-내용&quot;&gt;얼추 앞으로 이루어야할 목표들을 정리한 내용&lt;/h2&gt;
+
+&lt;p&gt;나를 걱정해주고 응원해주는 본가의 가족들에게 계획을 이대로 고지했다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;인프런이라는 온라인 강의 사이트가 있는데 거기서 자바 언어에 대한 강의 듣고 혼자 공부 및 실습&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;백준, 프로그래머스 문제로 코딩 테스트 공부 - 백준 플래티넘, 다이아 목표&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;여기까지는 코딩 테스트를 위한 공부임&lt;/p&gt;
+
+&lt;p&gt;대기업에서는 개발자를 채용할 때 코딩테스트 봄(&lt;del&gt;잘 모르시는 엄빠를 위한 설명이었다&lt;/del&gt;)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;5월 쯤에 있을 네이버 주최 부스트캠프 지원(여기서도 코딩테스트를 봄) - 이걸 지원하는 이유는 깊이 있는 개발지식을 쌓을 수 있는 것도 있고 포트폴리오랑 취업 연계에 직결돼 있어서임&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;4-1. 만약에 합격하면 하반기까지 쭈욱 할 거고(이걸 끝까지 하면 어딜 가든 받아줄 정도)&lt;/p&gt;
+
+&lt;p&gt;4-2. 불합격하면 바로 하반기 공채 쭈욱 쓸거임(이렇게 되면 바로 취업은 될 수 있지만 원하는 곳에 못 가게 될 수도)&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="TIL" /><category term="Java" /><category term="TIL" /><summary type="html">어제부터 거진 밤을 새어가며 취준을 하는데에 있어서 나에게 필요한게 무엇인지, 어떤 방향으로 나아가야 하는지에 대해 고민을 많이 했다.</summary></entry><entry><title type="html">About React</title><link href="http://localhost:4000/frontend%20study/react/" rel="alternate" type="text/html" title="About React" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T13:00:00+09:00</updated><id>http://localhost:4000/frontend%20study/react</id><content type="html" xml:base="http://localhost:4000/frontend%20study/react/">&lt;p&gt;참고 사이트: &lt;a href=&quot;https://ko.reactjs.org/docs/add-react-to-a-website.html#add-react-in-one-minute&quot;&gt;웹사이트에 React추가하는 예제 보고 react 연습하기&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;like_button_container&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
 
@@ -439,7 +518,125 @@
 &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sqlalchemy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;
 
 &lt;span class=&quot;nx&quot;&gt;engine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;postgresql://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:5432/&amp;lt;dbname&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="DB" /><category term="SQL" /><category term="Python" /><summary type="html">SQLAlchemy</summary></entry><entry><title type="html">Github Blog</title><link href="http://localhost:4000/blog/githubblog/" rel="alternate" type="text/html" title="Github Blog" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T19:00:00+09:00</updated><id>http://localhost:4000/blog/githubblog</id><content type="html" xml:base="http://localhost:4000/blog/githubblog/">&lt;p&gt;첫 인턴을 준비하던 주중, 포트폴리오와 이력서 제출을 해야하는데 아직 만들어 놓은 것이 없어 여러 양식을 참고하다가 &lt;a href=&quot;http://github.io&quot;&gt;github.io&lt;/a&gt;를 이용해 나만의 블로그를 만들기로 하였다.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="DB" /><category term="SQL" /><category term="Python" /><summary type="html">SQLAlchemy</summary></entry><entry><title type="html">About JSON</title><link href="http://localhost:4000/backend%20study/json/" rel="alternate" type="text/html" title="About JSON" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T11:00:00+09:00</updated><id>http://localhost:4000/backend%20study/json</id><content type="html" xml:base="http://localhost:4000/backend%20study/json/">&lt;h2 id=&quot;json-javascript-object-notation&quot;&gt;JSON (JavaScript Object Notation)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;JavaScript Object Notation라는 의미의 축약어로 데이터를 저장하거나 전송할 때 많이 사용되는 &lt;strong&gt;경량의 DATA 교환 형식&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Javascript에서 객체를 만들 때 사용하는 표현식을 의미한다. (javascript 탭)&lt;/li&gt;
+  &lt;li&gt;JSON 표현식은 사람과 기계 모두 이해하기 쉬우며 용량이 작아서, 최근에는 JSON이 XML을 대체해서 데이터 전송 등에 많이 사용한다.&lt;/li&gt;
+  &lt;li&gt;JSON은 데이터 포맷일 뿐이며 어떠한 통신 방법도, 프로그래밍 문법도 아닌 &lt;strong&gt;단순히 데이터를 표시하는 표현 방법&lt;/strong&gt;일 뿐이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;json의-특징&quot;&gt;JSON의 특징&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;서버와 클라이언트 간의 교류에서 일반적으로 많이 사용된다.&lt;/li&gt;
+  &lt;li&gt;자바스크립트 객체 표기법과 아주 유사하다.&lt;/li&gt;
+  &lt;li&gt;자바스크립트를 이용하여 JSON 형식의 문서를 쉽게 자바스크립트 객체로 변환할 수 있는 이점이 있다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;JSON 문서 형식은 자바스크립트 객체의 형식을 기반으로 만들어졌다.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;자바스크립트의 문법과 굉장히 유사하지만 &lt;strong&gt;텍스트 형식일 뿐&lt;/strong&gt;이다.&lt;/li&gt;
+  &lt;li&gt;다른 프로그래밍 언어를 이용해서도 쉽게 만들 수 있다.&lt;/li&gt;
+  &lt;li&gt;특정 언어에 종속되지 않으며, 대부분의 프로그래밍 언어에서 JSON 포맷의 데이터를 핸들링 할 수 있는 라이브러리를 제공한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;json의-아래-두-특징과-관련하여&quot;&gt;JSON의 아래 두 특징과 관련하여..&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;간단한 웹 어플을 개발하는 과정에서 데이터를 동시에 여러개를 쉽게 전달하고 받아서 처리하기 위해 이 JSON형식을 이용하는 fastapi라는 최신 파이썬 프레임워크를 사용했는데, 파이썬 프레임워크다 보니 JSON형식을 만들기 위해 딕셔너리라는 자료구조를 사용했음.&lt;/li&gt;
+  &lt;li&gt;모든 수집하는 데이터를 JSON 형식과 맞춰주다 보니 파이썬에서 딕셔너리를 만드는 과정을 정말 많이 거치게 됐는데, 공부하던 중 파이썬에 내장되어 있는 zip이라는 꽤나 재미있고 유용한 함수를 발견함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;zip함수-더-알아보기&quot;&gt;zip()함수 더 알아보기&lt;/h3&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="Javascript" /><summary type="html">JSON (JavaScript Object Notation)</summary></entry><entry><title type="html">What is DOM?</title><link href="http://localhost:4000/frontend%20study/DOM/" rel="alternate" type="text/html" title="What is DOM?" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T15:00:00+09:00</updated><id>http://localhost:4000/frontend%20study/DOM</id><content type="html" xml:base="http://localhost:4000/frontend%20study/DOM/">&lt;h2 id=&quot;dom이란&quot;&gt;DOM이란?&lt;/h2&gt;
+
+&lt;p&gt;= Document Object Model(문서 객체 모델)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;문서 객체란, &amp;lt;html&amp;gt;이나 &amp;lt;body&amp;gt; 같은 html문서의 태그들을 JavaScript가 이용할 수 있는 객체(object)로 만들면 그것을 문서 객체라고 함&lt;/li&gt;
+  &lt;li&gt;즉, DOM은 웹 브라우저가 HTML 페이지를 인식하는 방식을 의미함.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2023-01-07-DOM/DOM1.png&quot; alt=&quot;트리 구조로 형성되어 있는 DOM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;트리 구조로 형성되어 있는 DOM&lt;/p&gt;
+
+&lt;p&gt;DOM은 tree형식의 자료구조를 가지고 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2023-01-07-DOM/DOM2.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;javascript로-문서객체를-생성한다&quot;&gt;JavaScript로 문서객체를 생성한다?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;정적 생성: 웹 브라우저가 HTML 페이지에 적혀 있는 태그를 읽으면 생성&lt;/li&gt;
+  &lt;li&gt;동적 생성: HTML 페이지에 없던 문서객체를 JavaScript를 이용해서 생성할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dom-사용-예시&quot;&gt;DOM 사용 예시&lt;/h2&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; 문서객체 모델(DOM)&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;header_1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;HEADER-1 &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;header_2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;HEADER-2&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;hr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;clock&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;여기서 javaScript를 통해 동적으로 문서객체를 생성해보겠다.&lt;/p&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;h2&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;textNode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createTextNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Hello DOM&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; 문서객체 모델(DOM)&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	window.onlad = function()&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;c1&quot;&gt;//1. 문서 객체 생성&lt;/span&gt;
+		&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;h2&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;textNode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createTextNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Hello DOM&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+		&lt;span class=&quot;c1&quot;&gt;//2. 노드(요소/텍스트)를 연결&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+		&lt;span class=&quot;c1&quot;&gt;//3. body 문서 객체에 header 문서 객체를 추가&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;header_1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;HEADER-1 &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;header_2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;HEADER-2&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;hr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;clock&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;참고: &lt;a href=&quot;https://m.blog.naver.com/magnking/220972680805&quot;&gt;https://m.blog.naver.com/magnking/220972680805&lt;/a&gt;&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Frontend study" /><category term="Frontend" /><category term="HTML" /><category term="DOM" /><summary type="html">DOM이란?</summary></entry><entry><title type="html">Github Blog</title><link href="http://localhost:4000/blog/githubblog/" rel="alternate" type="text/html" title="Github Blog" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T19:00:00+09:00</updated><id>http://localhost:4000/blog/githubblog</id><content type="html" xml:base="http://localhost:4000/blog/githubblog/">&lt;p&gt;첫 인턴을 준비하던 주중, 포트폴리오와 이력서 제출을 해야하는데 아직 만들어 놓은 것이 없어 여러 양식을 참고하다가 &lt;a href=&quot;http://github.io&quot;&gt;github.io&lt;/a&gt;를 이용해 나만의 블로그를 만들기로 하였다.&lt;/p&gt;
 
 &lt;p&gt;여러 블로그를 찾아보며 블로그 만드는 데에 참고하였지만, apple silicon을 사용하는 블로거는 찾기 힘들어 직접 만들어 보기로 하였다.&lt;/p&gt;
 
@@ -643,125 +840,7 @@
 
 &lt;p&gt;자 이제 잠시 후 username.github.io에 접속하면? jekyll 테마가 입혀진 초기 상태의 본인 블로그를 확인할 수 있다! Congrats!!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2023-01-07-githubblog/blog11.png&quot; alt=&quot;스크린샷 2023-01-04 오후 5.08.26.png&quot; /&gt;&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Blog" /><category term="Blog" /><category term="GitHub Page" /><category term="Git" /><summary type="html">첫 인턴을 준비하던 주중, 포트폴리오와 이력서 제출을 해야하는데 아직 만들어 놓은 것이 없어 여러 양식을 참고하다가 github.io를 이용해 나만의 블로그를 만들기로 하였다.</summary></entry><entry><title type="html">What is DOM?</title><link href="http://localhost:4000/frontend%20study/DOM/" rel="alternate" type="text/html" title="What is DOM?" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T15:00:00+09:00</updated><id>http://localhost:4000/frontend%20study/DOM</id><content type="html" xml:base="http://localhost:4000/frontend%20study/DOM/">&lt;h2 id=&quot;dom이란&quot;&gt;DOM이란?&lt;/h2&gt;
-
-&lt;p&gt;= Document Object Model(문서 객체 모델)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;문서 객체란, &amp;lt;html&amp;gt;이나 &amp;lt;body&amp;gt; 같은 html문서의 태그들을 JavaScript가 이용할 수 있는 객체(object)로 만들면 그것을 문서 객체라고 함&lt;/li&gt;
-  &lt;li&gt;즉, DOM은 웹 브라우저가 HTML 페이지를 인식하는 방식을 의미함.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/2023-01-07-DOM/DOM1.png&quot; alt=&quot;트리 구조로 형성되어 있는 DOM&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;트리 구조로 형성되어 있는 DOM&lt;/p&gt;
-
-&lt;p&gt;DOM은 tree형식의 자료구조를 가지고 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/2023-01-07-DOM/DOM2.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;javascript로-문서객체를-생성한다&quot;&gt;JavaScript로 문서객체를 생성한다?&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;정적 생성: 웹 브라우저가 HTML 페이지에 적혀 있는 태그를 읽으면 생성&lt;/li&gt;
-  &lt;li&gt;동적 생성: HTML 페이지에 없던 문서객체를 JavaScript를 이용해서 생성할 수 있음&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;dom-사용-예시&quot;&gt;DOM 사용 예시&lt;/h2&gt;
-
-&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; 문서객체 모델(DOM)&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;header_1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;HEADER-1 &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;header_2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;HEADER-2&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;hr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;clock&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;여기서 javaScript를 통해 동적으로 문서객체를 생성해보겠다.&lt;/p&gt;
-
-&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;h2&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;textNode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createTextNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Hello DOM&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; 문서객체 모델(DOM)&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-	window.onlad = function()&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;c1&quot;&gt;//1. 문서 객체 생성&lt;/span&gt;
-		&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;h2&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-		&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;textNode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createTextNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Hello DOM&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-		&lt;span class=&quot;c1&quot;&gt;//2. 노드(요소/텍스트)를 연결&lt;/span&gt;
-		&lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-		&lt;span class=&quot;c1&quot;&gt;//3. body 문서 객체에 header 문서 객체를 추가&lt;/span&gt;
-		&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;header_1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;HEADER-1 &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;header_2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;HEADER-2&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;hr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;clock&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;참고: &lt;a href=&quot;https://m.blog.naver.com/magnking/220972680805&quot;&gt;https://m.blog.naver.com/magnking/220972680805&lt;/a&gt;&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Frontend study" /><category term="Frontend" /><category term="HTML" /><category term="DOM" /><summary type="html">DOM이란?</summary></entry><entry><title type="html">About JSON</title><link href="http://localhost:4000/backend%20study/json/" rel="alternate" type="text/html" title="About JSON" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T11:00:00+09:00</updated><id>http://localhost:4000/backend%20study/json</id><content type="html" xml:base="http://localhost:4000/backend%20study/json/">&lt;h2 id=&quot;json-javascript-object-notation&quot;&gt;JSON (JavaScript Object Notation)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;JavaScript Object Notation라는 의미의 축약어로 데이터를 저장하거나 전송할 때 많이 사용되는 &lt;strong&gt;경량의 DATA 교환 형식&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Javascript에서 객체를 만들 때 사용하는 표현식을 의미한다. (javascript 탭)&lt;/li&gt;
-  &lt;li&gt;JSON 표현식은 사람과 기계 모두 이해하기 쉬우며 용량이 작아서, 최근에는 JSON이 XML을 대체해서 데이터 전송 등에 많이 사용한다.&lt;/li&gt;
-  &lt;li&gt;JSON은 데이터 포맷일 뿐이며 어떠한 통신 방법도, 프로그래밍 문법도 아닌 &lt;strong&gt;단순히 데이터를 표시하는 표현 방법&lt;/strong&gt;일 뿐이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;json의-특징&quot;&gt;JSON의 특징&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;서버와 클라이언트 간의 교류에서 일반적으로 많이 사용된다.&lt;/li&gt;
-  &lt;li&gt;자바스크립트 객체 표기법과 아주 유사하다.&lt;/li&gt;
-  &lt;li&gt;자바스크립트를 이용하여 JSON 형식의 문서를 쉽게 자바스크립트 객체로 변환할 수 있는 이점이 있다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;JSON 문서 형식은 자바스크립트 객체의 형식을 기반으로 만들어졌다.&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;자바스크립트의 문법과 굉장히 유사하지만 &lt;strong&gt;텍스트 형식일 뿐&lt;/strong&gt;이다.&lt;/li&gt;
-  &lt;li&gt;다른 프로그래밍 언어를 이용해서도 쉽게 만들 수 있다.&lt;/li&gt;
-  &lt;li&gt;특정 언어에 종속되지 않으며, 대부분의 프로그래밍 언어에서 JSON 포맷의 데이터를 핸들링 할 수 있는 라이브러리를 제공한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;json의-아래-두-특징과-관련하여&quot;&gt;JSON의 아래 두 특징과 관련하여..&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;간단한 웹 어플을 개발하는 과정에서 데이터를 동시에 여러개를 쉽게 전달하고 받아서 처리하기 위해 이 JSON형식을 이용하는 fastapi라는 최신 파이썬 프레임워크를 사용했는데, 파이썬 프레임워크다 보니 JSON형식을 만들기 위해 딕셔너리라는 자료구조를 사용했음.&lt;/li&gt;
-  &lt;li&gt;모든 수집하는 데이터를 JSON 형식과 맞춰주다 보니 파이썬에서 딕셔너리를 만드는 과정을 정말 많이 거치게 됐는데, 공부하던 중 파이썬에 내장되어 있는 zip이라는 꽤나 재미있고 유용한 함수를 발견함&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;zip함수-더-알아보기&quot;&gt;zip()함수 더 알아보기&lt;/h3&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="Javascript" /><summary type="html">JSON (JavaScript Object Notation)</summary></entry><entry><title type="html">Python Version Control</title><link href="http://localhost:4000/backend%20study/pythonversion/" rel="alternate" type="text/html" title="Python Version Control" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T09:00:00+09:00</updated><id>http://localhost:4000/backend%20study/pythonversion</id><content type="html" xml:base="http://localhost:4000/backend%20study/pythonversion/">&lt;p&gt;! 파이썬 프로젝트를 만들시에 파이썬 버전에 따라서 쓸 수 있는 명령어 코드가 다름&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/2023-01-07-githubblog/blog11.png&quot; alt=&quot;스크린샷 2023-01-04 오후 5.08.26.png&quot; /&gt;&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Blog" /><category term="Blog" /><category term="GitHub Page" /><category term="Git" /><summary type="html">첫 인턴을 준비하던 주중, 포트폴리오와 이력서 제출을 해야하는데 아직 만들어 놓은 것이 없어 여러 양식을 참고하다가 github.io를 이용해 나만의 블로그를 만들기로 하였다.</summary></entry><entry><title type="html">Python Version Control</title><link href="http://localhost:4000/backend%20study/pythonversion/" rel="alternate" type="text/html" title="Python Version Control" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T09:00:00+09:00</updated><id>http://localhost:4000/backend%20study/pythonversion</id><content type="html" xml:base="http://localhost:4000/backend%20study/pythonversion/">&lt;p&gt;! 파이썬 프로젝트를 만들시에 파이썬 버전에 따라서 쓸 수 있는 명령어 코드가 다름&lt;/p&gt;
 
 &lt;h2 id=&quot;시작하기에-앞서-파이썬-버전-관리가-왜-중요할까&quot;&gt;시작하기에 앞서, 파이썬 버전 관리가 왜 중요할까?&lt;/h2&gt;
 
@@ -883,7 +962,7 @@
 &lt;ul&gt;
   &lt;li&gt;쉘 스크립트? 대체 저 문구는 뭘 의미할까(형진이형 노션 참고: &lt;a href=&quot;https://www.notion.so/J165-Day-02-Linux-bae0f3e947d6429d9f2ea9c5d7926c4f&quot;&gt;https://hjin8.notion.site/J165-Day-02-Linux-bae0f3e947d6429d9f2ea9c5d7926c4f&lt;/a&gt;)&lt;/li&gt;
   &lt;li&gt;zshrc는 뭘까 좀 더 쉽게 파이썬 버전만을 바꾸는 방법은 없는걸까?&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="Python" /><summary type="html">! 파이썬 프로젝트를 만들시에 파이썬 버전에 따라서 쓸 수 있는 명령어 코드가 다름</summary></entry><entry><title type="html">REST API</title><link href="http://localhost:4000/backend%20study/restapi/" rel="alternate" type="text/html" title="REST API" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T17:00:00+09:00</updated><id>http://localhost:4000/backend%20study/restapi</id><content type="html" xml:base="http://localhost:4000/backend%20study/restapi/">&lt;h2 id=&quot;rest란&quot;&gt;REST란?&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="Python" /><summary type="html">! 파이썬 프로젝트를 만들시에 파이썬 버전에 따라서 쓸 수 있는 명령어 코드가 다름</summary></entry><entry><title type="html">First post: test</title><link href="http://localhost:4000/blog/testpage/" rel="alternate" type="text/html" title="First post: test" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T16:00:00+09:00</updated><id>http://localhost:4000/blog/testpage</id><content type="html" xml:base="http://localhost:4000/blog/testpage/">&lt;p&gt;this is a test page&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Blog" /><category term="Blog" /><category term="GitHub Page" /><category term="Git" /><summary type="html">this is a test page</summary></entry><entry><title type="html">REST API</title><link href="http://localhost:4000/backend%20study/restapi/" rel="alternate" type="text/html" title="REST API" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T17:00:00+09:00</updated><id>http://localhost:4000/backend%20study/restapi</id><content type="html" xml:base="http://localhost:4000/backend%20study/restapi/">&lt;h2 id=&quot;rest란&quot;&gt;REST란?&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;자원을 이름으로 구분하여 해당 자원의 상태를 주고받는 것&lt;/li&gt;
@@ -898,64 +977,4 @@
 
 &lt;p&gt;= 즉 REST는 네트워크 상에서 서버와 클라이언트 사이의 통신 방식 중 하나&lt;/p&gt;
 
-&lt;p&gt;해당 포스트는 &lt;a href=&quot;https://meetup.nhncloud.com/posts/92&quot;&gt;REST API 제대로 알고 사용하기 : NHN Cloud Meetup&lt;/a&gt;를 참조하여 만들었습니다.&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="DB" /><summary type="html">REST란?</summary></entry><entry><title type="html">First post: test</title><link href="http://localhost:4000/blog/testpage/" rel="alternate" type="text/html" title="First post: test" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T16:00:00+09:00</updated><id>http://localhost:4000/blog/testpage</id><content type="html" xml:base="http://localhost:4000/blog/testpage/">&lt;p&gt;this is a test page&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Blog" /><category term="Blog" /><category term="GitHub Page" /><category term="Git" /><summary type="html">this is a test page</summary></entry><entry><title type="html">Simple linux commands</title><link href="http://localhost:4000/linux/linuxcmd/" rel="alternate" type="text/html" title="Simple linux commands" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T17:00:00+09:00</updated><id>http://localhost:4000/linux/linuxcmd</id><content type="html" xml:base="http://localhost:4000/linux/linuxcmd/">&lt;h2 id=&quot;리눅스-명령어&quot;&gt;리눅스 명령어&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;명령어&lt;/th&gt;
-      &lt;th&gt;의미&lt;/th&gt;
-      &lt;th&gt;비고&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;mv&lt;/td&gt;
-      &lt;td&gt;파일 이동&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;echo&lt;/td&gt;
-      &lt;td&gt;출력&lt;/td&gt;
-      &lt;td&gt;echo (내용) &amp;gt; 파일: 파일에 덮어씌우기&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;cat&lt;/td&gt;
-      &lt;td&gt;파일 미리보기&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ls -a&lt;/td&gt;
-      &lt;td&gt;숨김 파일 표시&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;python -m (모듈)&lt;/td&gt;
-      &lt;td&gt;파이썬 라이브러리를 모듈로써 설치할 때&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/2023-01-07-linuxcmd/linuxcmd1.png&quot; alt=&quot;echo / cat / 연습&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;echo / cat / 연습&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/2023-01-07-linuxcmd/linuxcmd2.png&quot; alt=&quot;mkdir / mv / 상대경로 연습&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;mkdir / mv / 상대경로 연습&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/2023-01-07-linuxcmd/linuxcmd3.png&quot; alt=&quot;python 명령어 중 -m mod에 대한 설명임 (예: python3 -m venv .venv 이름이  .venv인 가상환경 모듈 설치)&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;python 명령어 중 -m mod에 대한 설명임 (예: python3 -m venv .venv 이름이  .venv인 가상환경 모듈 설치)&lt;/p&gt;
-
-&lt;p&gt;경로: 상대경로, 절대경로&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;상대경로&lt;/li&gt;
-  &lt;li&gt;현재 폴더: ./&lt;/li&gt;
-  &lt;li&gt;상위 폴더: ../&lt;/li&gt;
-  &lt;li&gt;상위 폴더의 상위 폴더: ../../&lt;/li&gt;
-  &lt;li&gt;최상위 폴더: /&lt;/li&gt;
-  &lt;li&gt;default: ~&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hongchan Chun</name></author><category term="Linux" /><category term="Linux" /><summary type="html">리눅스 명령어</summary></entry></feed>
+&lt;p&gt;해당 포스트는 &lt;a href=&quot;https://meetup.nhncloud.com/posts/92&quot;&gt;REST API 제대로 알고 사용하기 : NHN Cloud Meetup&lt;/a&gt;를 참조하여 만들었습니다.&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="Backend study" /><category term="Backend" /><category term="DB" /><summary type="html">REST란?</summary></entry></feed>
