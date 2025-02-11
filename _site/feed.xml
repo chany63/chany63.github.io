@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-11T20:12:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hongchan Chun</title><subtitle>Software developer &amp; Korea Univ. student major in Computer Science</subtitle><author><name>Hongchan Chun</name></author><entry><title type="html">오랜만의 About Me Update - TIL 1일차</title><link href="http://localhost:4000/til/1/" rel="alternate" type="text/html" title="오랜만의 About Me Update - TIL 1일차" /><published>2025-02-10T00:00:00+09:00</published><updated>2025-02-10T20:19:55+09:00</updated><id>http://localhost:4000/til/1</id><content type="html" xml:base="http://localhost:4000/til/1/">&lt;p&gt;인생 처음으로 취업을 준비하게 되었다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-11T20:14:43+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hongchan Chun</title><subtitle>Software developer &amp; Korea Univ. student major in Computer Science</subtitle><author><name>Hongchan Chun</name></author><entry><title type="html">오랜만의 About Me Update - TIL 1일차</title><link href="http://localhost:4000/til/1/" rel="alternate" type="text/html" title="오랜만의 About Me Update - TIL 1일차" /><published>2025-02-10T00:00:00+09:00</published><updated>2025-02-10T20:19:55+09:00</updated><id>http://localhost:4000/til/1</id><content type="html" xml:base="http://localhost:4000/til/1/">&lt;p&gt;인생 처음으로 취업을 준비하게 되었다.&lt;/p&gt;
 
 &lt;p&gt;처음 인턴을 준비할 때 포트폴리오 제출을 위해 이 블로그를 만들었는데 &lt;del&gt;물론 인턴인 줄 알고 들어간 기업에서 갑작스럽게 메인 개발자가 되어 고생이란 고생은 다 겪었지만..&lt;/del&gt;&lt;/p&gt;
 
@@ -139,12 +139,12 @@ $ echo &apos;export PATH=$JAVA_HOME/bin:$PATH&apos; &amp;gt;&amp;gt; ~/.zshrc
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;IDE 설치&lt;/p&gt;
+
+    &lt;p&gt;나는 기존에 쓰던 VSCode를 사용하였기 때문에 따로 IDE를 설치하지 않았다.&lt;/p&gt;
+
+    &lt;p&gt;권장되는 IDE인 IntelliJ를 써본 적이 있었는데, 뭐랄까 아직은 좀 불편한 느낌이었다. 상용화가 덜 된 느낌?&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;나는 기존에 쓰던 VSCode를 사용하였기 때문에 따로 IDE를 설치하지 않았다.&lt;/p&gt;
-
-&lt;p&gt;권장되는 IDE인 IntelliJ를 써본 적이 있었는데, 뭐랄까 아직은 좀 불편한 느낌이었다. 상용화가 덜 된 느낌?&lt;/p&gt;
 
 &lt;h2 id=&quot;얼추-앞으로-이루어야할-목표들을-정리한-내용&quot;&gt;얼추 앞으로 이루어야할 목표들을 정리한 내용&lt;/h2&gt;
 
@@ -156,20 +156,21 @@ $ echo &apos;export PATH=$JAVA_HOME/bin:$PATH&apos; &amp;gt;&amp;gt; ~/.zshrc
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;백준, 프로그래머스 문제로 코딩 테스트 공부 - 백준 플래티넘, 다이아 목표&lt;/p&gt;
+
+    &lt;p&gt;여기까지는 코딩 테스트를 위한 공부임&lt;/p&gt;
+
+    &lt;p&gt;대기업에서는 개발자를 채용할 때 코딩테스트 봄(&lt;del&gt;잘 모르시는 엄빠를 위한 설명이었다&lt;/del&gt;)&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;여기까지는 코딩 테스트를 위한 공부임&lt;/p&gt;
-
-&lt;p&gt;대기업에서는 개발자를 채용할 때 코딩테스트 봄(&lt;del&gt;잘 모르시는 엄빠를 위한 설명이었다&lt;/del&gt;)&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;5월 쯤에 있을 네이버 주최 부스트캠프 지원(여기서도 코딩테스트를 봄) - 이걸 지원하는 이유는 깊이 있는 개발지식을 쌓을 수 있는 것도 있고 포트폴리오랑 취업 연계에 직결돼 있어서임&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;4-1. 만약에 합격하면 하반기까지 쭈욱 할 거고(이걸 끝까지 하면 어딜 가든 받아줄 정도)&lt;/p&gt;
-
-&lt;p&gt;4-2. 불합격하면 바로 하반기 공채 쭈욱 쓸거임(이렇게 되면 바로 취업은 될 수 있지만 원하는 곳에 못 가게 될 수도)&lt;/p&gt;</content><author><name>Hongchan Chun</name></author><category term="TIL" /><category term="Java" /><category term="TIL" /><summary type="html">어제부터 거진 밤을 새어가며 취준을 하는데에 있어서 나에게 필요한게 무엇인지, 어떤 방향으로 나아가야 하는지에 대해 고민을 많이 했다.</summary></entry><entry><title type="html">About React</title><link href="http://localhost:4000/frontend%20study/react/" rel="alternate" type="text/html" title="About React" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T13:00:00+09:00</updated><id>http://localhost:4000/frontend%20study/react</id><content type="html" xml:base="http://localhost:4000/frontend%20study/react/">&lt;p&gt;참고 사이트: &lt;a href=&quot;https://ko.reactjs.org/docs/add-react-to-a-website.html#add-react-in-one-minute&quot;&gt;웹사이트에 React추가하는 예제 보고 react 연습하기&lt;/a&gt;&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;5월 쯤에 있을 네이버 주최 부스트캠프 지원(여기서도 코딩테스트를 봄) - 이걸 지원하는 이유는 깊이 있는 개발지식을 쌓을 수 있는 것도 있고 포트폴리오랑 취업 연계에 직결돼 있어서임&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;만약에 합격하면 하반기까지 쭈욱 할 거고(이걸 끝까지 하면 어딜 가든 받아줄 정도)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;불합격하면 바로 하반기 공채 쭈욱 쓸거임(이렇게 되면 바로 취업은 될 수 있지만 원하는 곳에 못 가게 될 수도)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Hongchan Chun</name></author><category term="TIL" /><category term="Java" /><category term="TIL" /><summary type="html">어제부터 거진 밤을 새어가며 취준을 하는데에 있어서 나에게 필요한게 무엇인지, 어떤 방향으로 나아가야 하는지에 대해 고민을 많이 했다.</summary></entry><entry><title type="html">About React</title><link href="http://localhost:4000/frontend%20study/react/" rel="alternate" type="text/html" title="About React" /><published>2023-01-07T00:00:00+09:00</published><updated>2023-01-07T13:00:00+09:00</updated><id>http://localhost:4000/frontend%20study/react</id><content type="html" xml:base="http://localhost:4000/frontend%20study/react/">&lt;p&gt;참고 사이트: &lt;a href=&quot;https://ko.reactjs.org/docs/add-react-to-a-website.html#add-react-in-one-minute&quot;&gt;웹사이트에 React추가하는 예제 보고 react 연습하기&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;like_button_container&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
 
